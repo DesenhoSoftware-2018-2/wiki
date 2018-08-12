@@ -5,7 +5,7 @@ import HomePage from '../components/Home';
 export default () => (
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact component={HomePage} />
+      <Route path="" exact component={HomePage} />
     </Switch>
   </BrowserRouter>
 );
