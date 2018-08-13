@@ -6,7 +6,7 @@ import SubPage from '../components/subpage';
 export default () => (
   <BrowserRouter>
     <Switch>
-      <Route path="" exact component={HomePage} />
+      <Route path="/" exact render={props => <HomePage {...props} />} />
       <Route path="/subpage" exact component={SubPage} />
     </Switch>
   </BrowserRouter>
