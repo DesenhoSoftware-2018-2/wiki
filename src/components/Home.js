@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import test from '../assets/files/test.md';
 import { Link } from 'react-router-dom';
+import test from '../assets/files/test.md';
 const ReactMarkdown = require('react-markdown');
 
 class Home extends Component {

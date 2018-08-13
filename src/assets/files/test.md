@@ -1,1 +1,1 @@
-# Clica no [link](/path)
+# Clica no [link](/subpage)
