@@ -1,1 +1,0 @@
-# Clica no [link](/path)
