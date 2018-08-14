@@ -28,10 +28,10 @@ class Home extends Component {
     render() {
         return(
             <div>
+                <ReactMarkdown source={this.state.terms} renderers={{ link: this.RouterLink}} />
                 <ImageSection source="img1.jpg" content="Arquitetura e Desenho de Software" height="100vh" border={true} />
-                <TextSection title="First Section" theme="dark">
-                    Donec cursus euismod nulla, eu pellentesque nibh faucibus id. Nunc a congue massa. Pellentesque faucibus erat augue, nec maximus diam vestibulum vel. Etiam et velit euismod, rutrum ex in, venenatis ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam eu sapien eget nulla consequat rhoncus vitae eu neque. Integer aliquet tellus quis pulvinar molestie. Donec finibus dolor semper elit euismod, ac egestas enim varius. Phasellus venenatis egestas sapien, blandit porttitor neque efficitur eu. Mauris faucibus tortor in orci egestas imperdiet. Proin bibendum tortor quis imperdiet molestie.
-                    <ReactMarkdown source={this.state.terms} renderers={{ link: this.RouterLink}} />
+                <TextSection title="Bio" theme="dark">
+                    Projeto da disciplina Arquitetura e Desenho de Software pelos alunos da UnB 
                 </TextSection>
                 <ImageSection source="img2.jpg" content="Some text here" height="40vh" border={false} />
                 <TextSection title="Second Section" theme="light">
