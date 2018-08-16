@@ -1,0 +1,23 @@
+.card-member {
+    position: relative;
+    width: 10em !important;
+    margin: 1em;
+    height: 15em;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-member img {
+    display: flex;
+    width: 15em;
+    transform: translateY(-10%);
+}
+
+#card-info {
+    position: relative;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 0.7em;
+    flex-direction: column;
+    line-break: auto;
+}
