@@ -5,7 +5,7 @@ import SubPage from '../components/subpage';
 import Sidenav from '../components/sidenav';
 
 export default () => (
-  <BrowserRouter basename="/react-wiki-app">
+  <BrowserRouter basename="/wiki">
     <Switch>
       <Route path="/" exact render={props => <HomePage {...props} />} />
       <Route path="/subpage" exact component={SubPage} />

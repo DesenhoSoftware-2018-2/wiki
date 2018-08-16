@@ -2,7 +2,7 @@
   "name": "react-wiki-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lucianaribeiro.github.io/react-wiki-app",
+  "homepage": "http://DesenhoSoftware-2018-2.github.io/wiki",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
