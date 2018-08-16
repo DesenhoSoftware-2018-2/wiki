@@ -5,7 +5,7 @@ class Sidenav extends Component {
     render() {
         return(
             <div>
-                <h1>testando</h1>
+                <h1>testando</h1> 
             </div>
         );
     }

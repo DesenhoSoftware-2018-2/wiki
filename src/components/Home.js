@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import ImageSection from './paralax/image-section';
 import TextSection from './paralax/text-section';
+import Members from './members';
 import test from '../assets/files/test.md';
 const ReactMarkdown = require('react-markdown');
 
@@ -28,14 +29,15 @@ class Home extends Component {
     render() {
         return(
             <div>
-                <ReactMarkdown source={this.state.terms} renderers={{ link: this.RouterLink}} />
+                
                 <ImageSection source="img1.jpg" content="Arquitetura e Desenho de Software" height="100vh" border={true} />
                 <TextSection title="Bio" theme="dark">
                     Projeto da disciplina Arquitetura e Desenho de Software pelos alunos da UnB 
+                    <ReactMarkdown source={this.state.terms} renderers={{ link: this.RouterLink}} />
                 </TextSection>
-                <ImageSection source="img2.jpg" content="Some text here" height="40vh" border={false} />
-                <TextSection title="Second Section" theme="light">
-                    Mauris ac porta velit. Ut at porttitor turpis, eu dictum sapien. Nullam ut tempor dolor, eu lobortis purus. In hac habitasse platea dictumst. Nullam laoreet ipsum at ullamcorper vehicula. Curabitur placerat hendrerit ex eu sagittis. Fusce sed auctor quam. Aenean pellentesque sed tellus in malesuada.
+                <ImageSection source="img2.jpg" content="" height="40vh" border={false} />
+                <TextSection title="Membros" theme="light">
+                    <Members />
                 </TextSection>
                 <ImageSection source="img3.jpeg" content="More text here" height="40vh" border={false} />
                 <TextSection title="Third Section" theme="dark">
