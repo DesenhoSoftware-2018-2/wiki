@@ -31,25 +31,25 @@ class Sidenav extends Component {
             </div>
           </li>
           <li>
-            <Link to={homePath}>Home</Link>
+            <Link to={homePath} onClick={() => M.AutoInit()} >Home</Link>
           </li>
           <li>
             <div className="divider" />
           </li>
           <li>
-            <Link to={homePath}>Dinâmica I</Link>
+            <Link to={homePath} onClick={() => M.AutoInit()} >Dinâmica I</Link>
           </li>
           <li>
-            <Link to={homePath}>Dinâmica II</Link>
+            <Link to={homePath} onClick={() => M.AutoInit()} >Dinâmica II</Link>
           </li>
           <li>
-            <Link to={homePath}>Dinâmica III</Link>
+            <Link to={homePath} onClick={() => M.AutoInit()} >Dinâmica III</Link>
           </li>
           <li>
-            <Link to={homePath}>Dinâmica IV</Link>
+            <Link to={homePath} onClick={() => M.AutoInit()} >Dinâmica IV</Link>
           </li>
           <li>
-            <Link to={homePath}>Dinâmica V</Link>
+            <Link to={homePath} onClick={() => M.AutoInit()} >Dinâmica V</Link>
           </li>
         </ul>
         <a data-target="slide-out" className="sidenav-trigger sidenav-teste">
