@@ -1,13 +1,21 @@
 {
   "main.css": "static/css/main.be0c63f9.css",
   "main.css.map": "static/css/main.be0c63f9.css.map",
-  "main.js": "static/js/main.475539cd.js",
-  "main.js.map": "static/js/main.475539cd.js.map",
+  "main.js": "static/js/main.debba32c.js",
+  "main.js.map": "static/js/main.debba32c.js.map",
+  "static/media/amanda.jpeg": "static/media/amanda.635c9641.jpeg",
   "static/media/background.jpeg": "static/media/background.e3f6aa34.jpeg",
+  "static/media/bruno.jpeg": "static/media/bruno.a4c8e9f6.jpeg",
+  "static/media/calebe.jpeg": "static/media/calebe.a7b1cd0e.jpeg",
   "static/media/img1.jpg": "static/media/img1.3926c2bd.jpg",
   "static/media/img2.jpg": "static/media/img2.4828469a.jpg",
   "static/media/img3.jpeg": "static/media/img3.2c58897a.jpeg",
   "static/media/img4.jpg": "static/media/img4.1ba7d94c.jpg",
+  "static/media/indiara.jpeg": "static/media/indiara.d3bf624c.jpeg",
+  "static/media/isaque.jpeg": "static/media/isaque.6643ff94.jpeg",
+  "static/media/joao.jpg": "static/media/joao.ebe89278.jpg",
+  "static/media/luciana.jpeg": "static/media/luciana.a5ea98fc.jpeg",
   "static/media/luciana.jpg": "static/media/luciana.d24d51b2.jpg",
+  "static/media/martha.jpeg": "static/media/martha.8769728a.jpeg",
   "static/media/test.md": "static/media/test.e0b40833.md"
 }

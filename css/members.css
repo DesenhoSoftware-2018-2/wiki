@@ -1,6 +1,6 @@
 .card-member {
     position: relative;
-    width: 10em !important;
+    width: 14em !important;
     margin: 1em;
     height: 15em;
     background-size: cover;
@@ -20,4 +20,5 @@
     font-size: 0.7em;
     flex-direction: column;
     line-break: auto;
+    color: black !important;
 }
