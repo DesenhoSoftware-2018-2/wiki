@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import Sidenav from './sidenav';
 import ImageSection from './paralax/image-section';
 import TextSection from './paralax/text-section';
 import Members from './members';
@@ -29,7 +30,7 @@ class Home extends Component {
     render() {
         return(
             <div>
-                
+                <Sidenav />
                 <ImageSection source="img1.jpg" content="Arquitetura e Desenho de Software" height="100vh" border={true} />
                 <TextSection title="Bio" theme="dark">
                     Projeto da disciplina Arquitetura e Desenho de Software pelos alunos da UnB 

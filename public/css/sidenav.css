@@ -1,0 +1,6 @@
+.sidenav-teste { 
+  position: fixed !important;
+  z-index: 2;
+  background-color: beige;
+  color: black;
+}
