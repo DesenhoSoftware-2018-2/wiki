@@ -38,7 +38,17 @@ class Home extends Component {
                 </TextSection>
                 <ImageSection source="img2.jpg" content="" height="40vh" border={false} />
                 <TextSection title="Membros" theme="light">
-                    <Members />
+                    <div className="members-list">
+                    <Members img="amanda.jpeg" nome="Amanda Muniz" git="@AmandaMuniz" email="amymuniiz@gmail.com"/>
+                    <Members img="bruno.jpeg" nome="Bruno Dantas" git="@brunooliveiradantas" email="oliveiradantas96@gmail.com"/>
+                    <Members img="calebe.jpeg" nome="Calebe Rios" git="@caleberios" email="calebersmendes@gmail.com"/>
+                    <Members img="indiara.jpeg" nome="Indiara Duarte" git="@inddiara" email="indiara96d@gmail.com"/>
+                    <Members img="isaque.jpeg" nome="Isaque Alves" git="@alvesisaque" email="isaquealvesdl@gmail.com"/>
+                    <Members img="joao.jpg" nome="João Vitor" git="joaovitor3" email="joaovytor0@gmail.com"/>
+                    <Members img="luciana.jpeg" nome="Luciana" git="lucianaribeiro" email="albuquerqueluciana54@gmail.com"/>
+                    <Members img="martha.jpeg" nome="Martha Dantas" git="@MarthaDs" email="marthadntas@gmail.com"/>
+                    <Members img="vitor.jpeg" nome="Vitor Cardoso" git="@vitorcx" email="vitorcx010@gmail.com"/>
+                    </div>
                 </TextSection>
                 <ImageSection source="img3.jpeg" content="More text here" height="40vh" border={false} />
                 <TextSection title="Third Section" theme="dark">

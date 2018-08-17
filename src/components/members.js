@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 
-const lucianaImg = require("../assets/imgs/members/luciana.jpg");
-
 class Members extends Component {
 
     render(){
@@ -10,12 +8,12 @@ class Members extends Component {
             <div className="col s12 m7">
               <div className="card small card-member">
                 <div className="card-image">
-                  <img src={lucianaImg} alt=""/>
-                  <span className="card-title">Luciana Ribeiro</span>
+                  <img src={require(`../assets/imgs/members/${this.props.img}`)} alt=""/>
+                  <span className="card-title">{this.props.name}</span>
                 </div>
                 <div className="card-content" id="card-info">
-                  <label>albuquerqueluciana54@gmail.com</label><br />
-                  <label>@lucianaribeiro</label>
+                  <label>{this.props.git}</label><br />
+                  <label>{this.props.email}</label>
                 </div>
               </div>
             </div>
