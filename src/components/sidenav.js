@@ -1,16 +1,21 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
-import M from 'materialize-css/dist/js/materialize.min.js';
-import 'materialize-css/dist/css/materialize.css';
+import { Link } from "react-router-dom";
+import M from "materialize-css/dist/js/materialize.min.js";
+import "materialize-css/dist/css/materialize.css";
 
 const homePath = {
-  pathname: '/',
+  pathname: "/"
 };
+
+const background = require('../assets/imgs/background.jpeg');
 
 class Sidenav extends Component {
   componentDidMount() {
-    var elems = document.querySelectorAll('.sidenav');
+    var elems = document.querySelectorAll(".sidenav");
     M.Sidenav.init(elems, {});
+
+    var elem = document.querySelectorAll(".collapsible");
+    M.Collapsible.init(elem, {});
   }
 
   render() {
@@ -20,7 +25,10 @@ class Sidenav extends Component {
           <li>
             <div className="user-view">
               <div className="background">
-                <img src="https://pixels.com/displayartwork.html?id=2086211&width=300&height=350" alt="background" />
+                <img
+                  src={background}
+                  alt="background"
+                />
               </div>
               <Link to={homePath}>
                 <span className="white-text name">Nome do grupo</span>
@@ -31,26 +39,48 @@ class Sidenav extends Component {
             </div>
           </li>
           <li>
-            <Link to={homePath} onClick={() => M.AutoInit()} >Home</Link>
+            <Link to={homePath} onClick={() => M.AutoInit()}>
+              Home
+            </Link>
           </li>
           <li>
             <div className="divider" />
           </li>
-          <li>
-            <Link to={homePath} onClick={() => M.AutoInit()} >Dinâmica I</Link>
-          </li>
-          <li>
-            <Link to={homePath} onClick={() => M.AutoInit()} >Dinâmica II</Link>
-          </li>
-          <li>
-            <Link to={homePath} onClick={() => M.AutoInit()} >Dinâmica III</Link>
-          </li>
-          <li>
-            <Link to={homePath} onClick={() => M.AutoInit()} >Dinâmica IV</Link>
-          </li>
-          <li>
-            <Link to={homePath} onClick={() => M.AutoInit()} >Dinâmica V</Link>
-          </li>
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header">Dinâmica I</div>
+              <div class="collapsible-body">
+                <ul>
+                  <li>
+                    <Link to={homePath} onClick={() => M.AutoInit()}>
+                      Link 1
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={homePath} onClick={() => M.AutoInit()}>
+                      Link 2
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">Dinâmica II</div>
+              <div class="collapsible-body" />
+            </li>
+            <li>
+              <div class="collapsible-header">Dinâmica III</div>
+              <div class="collapsible-body" />
+            </li>
+            <li>
+              <div class="collapsible-header">Dinâmica VI</div>
+              <div class="collapsible-body" />
+            </li>
+            <li>
+              <div class="collapsible-header">Dinâmica V</div>
+              <div class="collapsible-body" />
+            </li>
+          </ul>
         </ul>
         <a data-target="slide-out" className="sidenav-trigger sidenav-teste">
           <i className="material-icons small">menu</i>
