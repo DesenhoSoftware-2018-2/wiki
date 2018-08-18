@@ -7,6 +7,10 @@ const homePath = {
   pathname: "/"
 };
 
+const dinamica = {
+  pathname: "/dinamica"
+};
+
 const background = require('../assets/imgs/background.jpeg');
 
 class Sidenav extends Component {
@@ -52,8 +56,8 @@ class Sidenav extends Component {
               <div class="collapsible-body">
                 <ul>
                   <li>
-                    <Link to={homePath} onClick={() => M.AutoInit()}>
-                      Link 1
+                    <Link to={dinamica} onClick={() => M.AutoInit()}>
+                      Dinamica
                     </Link>
                   </li>
                   <li>
