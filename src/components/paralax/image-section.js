@@ -8,10 +8,12 @@ export default class ImageSection extends Component {
 			styles: {
 				backgroundImage: '',
 				minHeight: '',
+				filter: '',
 			},
 		}
 		this.state.styles.backgroundImage = `url(${require('../../assets/imgs/paralax/' + this.props.source)})`;
 		this.state.styles.minHeight = this.props.height;
+		this.state.styles.filter = this.props.filter;
   }
   render() {
     return (
@@ -19,6 +21,11 @@ export default class ImageSection extends Component {
 				<div className="ptext">
 						<span className={this.props.border ? 'border' : ''}>
 							{this.props.content}
+						</span>
+						<br />
+						<br />
+						<span className={`${this.props.subcontent ? '' : 'deactivated'} ${this.props.border ? 'border' : ''}`}>
+							{this.props.subcontent}
 						</span>
 				</div>
 			</div>
