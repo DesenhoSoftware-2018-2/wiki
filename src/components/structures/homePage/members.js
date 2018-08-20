@@ -8,7 +8,7 @@ class Members extends Component {
             <div className="col s12 m7">
               <div className="card small card-member">
                 <div className="card-image">
-                  <img src={require(`../assets/imgs/members/${this.props.img}`)} alt=""/>
+                  <img src={require(`../../../assets/imgs/members/${this.props.img}`)} alt=""/>
                   <span className="card-title">{this.props.name}</span>
                 </div>
                 <div className="card-content" id="card-info">

@@ -11,7 +11,7 @@ const dinamica = {
   pathname: "/dinamica"
 };
 
-const background = require('../assets/imgs/background.jpeg');
+const background = require('../../assets/imgs/background.jpeg');
 
 class Sidenav extends Component {
   componentDidMount() {
