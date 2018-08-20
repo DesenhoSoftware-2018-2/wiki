@@ -10,9 +10,6 @@ class Navbar extends Component {
     return (
       <nav className="navbar-dark">
         <div className="nav-wrapper">
-          <Link to={homePath}>
-            <span className="white-text brand-logo logo">Logo</span>
-          </Link>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             {
               this.props.activities.map(
