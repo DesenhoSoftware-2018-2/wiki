@@ -1,0 +1,10 @@
+.tools img{
+    display: flex;
+    width: 8em;
+    margin: 1em;
+}
+
+.tools {
+    position: relative;
+    margin: 2.5em;
+}
