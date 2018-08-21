@@ -12,3 +12,17 @@
   box-shadow: 0px 2px 10px 1px rgba(75,75,75,0.5);
   cursor: pointer;  
 }
+
+.dinamica-button {
+  margin-left: 10%;
+
+}
+
+.dinamica {
+  margin-left: 6%;
+  width: 100%;
+}
+
+.artifact {
+  margin-left: 5%;
+}
