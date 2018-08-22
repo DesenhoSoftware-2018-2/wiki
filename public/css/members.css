@@ -2,14 +2,15 @@
     position: relative;
     width: 14em !important;
     margin: 1em;
-    height: 15em;
+    height: 25em;
     background-size: cover;
     overflow: hidden;
 }
 
-.card-member img {
+.img-member {
     display: flex;
     width: 15em;
+    height: 15em;
     transform: translateY(-10%);
 }
 

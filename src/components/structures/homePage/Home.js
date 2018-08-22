@@ -16,56 +16,65 @@ class Home extends Component {
       {
         img: "amanda.jpeg",
         name: "Amanda Muniz",
-        git: "@AmandaMuniz",
-        email: "amymuniiz@gmail.com"
+        git: "AmandaMuniz",
+        email: "amymuniiz@gmail.com",
+        frase: '"FRASE"'
       },
       {
         img: "bruno.jpeg",
         name: "Bruno Dantas",
-        git: "@brunooliveiradantas",
-        email: "oliveiradantas96@gmail.com"
+        git: "brunooliveiradantas",
+        email: "oliveiradantas96@gmail.com",
+        frase: '"FRASE"'
       },
       {
         img: "calebe.jpeg",
         name: "Calebe Rios",
-        git: "@caleberios",
-        email: "calebersmendes@gmail.com"
+        git: "caleberios",
+        email: "calebersmendes@gmail.com",
+        frase: '"FRASE"'
       },
       {
         img: "indiara.jpeg",
         name: "Indiara Duarte",
-        git: "@inddiara",
-        email: "indiara96d@gmail.com"
+        git: "inddiara",
+        email: "indiara96d@gmail.com",
+        frase: '"FRASE"'
       },
       {
         img: "isaque.jpeg",
         name: "Isaque Alves",
-        git: "@alvesisaque",
-        email: "isaquealvesdl@gmail.com"
+        git: "alvesisaque",
+        email: "isaquealvesdl@gmail.com",
+        frase: '"Cria uma issue."'
       },
       {
         img: "joao.jpg",
         name: "João Vitor",
-        git: "@joaovitor3",
-        email: "joaovytor0@gmail.com"
+        git: "joaovitor3",
+        email: "joaovytor0@gmail.com",
+        frase: '"FRASE"'
       },
       {
         img: "luciana.jpeg",
-        name: "Luciana",
-        git: "@lucianaribeiro",
-        email: "albuquerqueluciana54@gmail.com"
+        name: "Luciana Ribeiro",
+        git: "lucianaribeiro",
+        email: "albuquerqueluciana54@gmail.com",
+        frase: '"FRASE"'
       },
       {
         img: "martha.jpg",
         name: "Martha Dantas",
-        git: "@MarthaDs",
-        email: "marthadntas@gmail.com"
+        git: "MarthaDs",
+        email: "marthadntas@gmail.com",
+        frase: '"FRASE"'
       },
       {
         img: "vitor.jpeg",
         name: "Vitor Cardoso",
-        git: "@vitorcx",
-        email: "vitorcx010@gmail.com"
+        git: "vitorcx",
+        email: "vitorcx010@gmail.com",
+        frase: '"FRASE"'
       }
     ];
 
@@ -124,6 +133,7 @@ class Home extends Component {
                   name={member.name}
                   git={member.git}
                   email={member.email}
+                  frase={member.frase}
                 />
               );
             })}
