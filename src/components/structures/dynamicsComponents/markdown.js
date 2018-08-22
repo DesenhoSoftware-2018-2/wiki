@@ -10,7 +10,7 @@ class Markdown extends Component {
     }
     
     componentWillMount() {
-        const file = require(`../../assets/files/${this.props.file}.md`);
+        const file = require(`../../../assets/files/${this.props.file}.md`);
         fetch(file).then((r) => r.text()).then((t) => {
             this.setState({ terms: t })
         })
@@ -29,7 +29,7 @@ class Markdown extends Component {
         const transformImageUri = input =>
         /^https?:/.test(input)
                 ? input
-                : require(`../../assets/imgs/${input}`)
+                : require(`../../../assets/imgs/${input}`)
                 
                 return(
             <div>

@@ -27,12 +27,21 @@ class Sidenav extends Component {
     const dynamics = [
       {
         dynamic: "Dinâmica I",
-        artefacts: [{ name: "RichPicture", link: "/dinamica"}, { name: "Lexico", link:"/dinamica"}]
+        artefacts: [
+          { name: "RichPicture", link: "/dinamica" },
+          { name: "Lexico", link: "/dinamica" }
+        ]
       },
       { dynamic: "Dinâmica II", artefacts: [] },
       { dynamic: "Dinâmica III", artefacts: [] },
       { dynamic: "Dinâmica IV", artefacts: [] },
       { dynamic: "Dinâmica V", artefacts: [] }
+    ];
+
+    const extras = [
+      { name: "Reuniões", link: "/reunioes" },
+      { name: "Fotos", link: "/fotos" },
+      { name: "Referência Bibliográfica", link:"/referencia"}
     ];
 
     return (
@@ -74,7 +83,10 @@ class Sidenav extends Component {
                       {dynamic.artefacts.map(artefact => {
                         return (
                           <li>
-                            <Link to={artefact.link} onClick={() => M.AutoInit()}>
+                            <Link
+                              to={artefact.link}
+                              onClick={() => M.AutoInit()}
+                            >
                               <div className="artifact">{artefact.name}</div>
                             </Link>
                           </li>
@@ -88,16 +100,28 @@ class Sidenav extends Component {
             <li>
               <div className="divider" />
             </li>
-          </ul>
-          <li>
-            <div className="collapsible-header">
-              <div className="dinamica">Extras</div>
-              <div className="dinamica-button">
-                <i class="material-icons">{this.state.button}</i>
+            <li>
+              <div className="collapsible-header">
+                <div className="dinamica">Extras</div>
+                <div className="dinamica-button">
+                  <i class="material-icons">{this.state.button}</i>
+                </div>
               </div>
-            </div>
-            <div className="collapsible-body" />
-          </li>
+              <div className="collapsible-body">
+                <ul>
+                  {extras.map(extra => {
+                    return (
+                      <li>
+                        <Link to={extra.link} onClick={() => M.AutoInit()}>
+                          <div className="artifact">{extra.name}</div>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </li>
+          </ul>
         </ul>
         <a data-target="slide-out" className="sidenav-trigger sidenav-teste">
           <i className="material-icons small">menu</i>
