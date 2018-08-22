@@ -90,25 +90,23 @@ class Home extends Component {
         <TextSection title="Bio" theme="dark">
           <p>
             Wiki destinada a disciplina de Arquitetura e Desenho de Software
-            pelos alunos da UnB.
+            realizada pelos alunos da UnB.
           </p>
           <p>
             Desenho de software, ou Projeto de software, é o processo de
-            transformar os requisitos numa forma apropriada, quer dizer, que
-            ajuda o programador na codificação do software e na implementação.
-            Essa forma apropriada engloba as atividades de concepção,
-            especificação e de prototipação das partes "externas" e "internas"
-            do software. A parte externa compreende o modelo conceitual da
-            aplicação e a interface de usuário. A parte interna compreende a
-            arquitetura de componentes de software e os algoritmos e estruturas
-            de dados que implementam estes componentes.
+            transformar os requistos dos usuários em documentos de baixo nível,
+            se aproximando cada vez mais da implementação em codígo. Essa
+            transformação inclui atividades de concepção, especificação e de
+            prototipação de um software, que vai desde a interface do usuário
+            até os algoritmos e estruturas de dados necessários para implementar
+            o software.
           </p>
           <p>
             Arquitetura de Software é a definição dos elementos arquiteturais,
-            como eles conversam entre si, os padrões utilizados e as suas
-            restrições. A linha entre design e arquitetura de software é tênue,
-            pois a arquitetura pode ser vista como um aspecto do design que se
-            concentra em alguns recursos específicos.
+            como banco de dados, servidores, clientes, entre outros. Envolve
+            também como será a interação entre esses elementos, quais padrões
+            serão necessários para o projeto e quais as restrições desses
+            padrões.
           </p>
         </TextSection>
         <ImageSection
