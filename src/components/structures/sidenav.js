@@ -7,16 +7,12 @@ const homePath = {
   pathname: "/"
 };
 
-const dinamica = {
-  pathname: "/dinamica"
-};
-
 const background = require("../../assets/imgs/background.jpeg");
 
 class Sidenav extends Component {
   constructor(props) {
-    super(props)    
-    this.state = { button: 'expand_more' }
+    super(props);
+    this.state = { button: "expand_more" };
   }
 
   componentDidMount() {
@@ -29,11 +25,14 @@ class Sidenav extends Component {
 
   render() {
     const dynamics = [
-      {dynamic: "Dinâmica I", artefacts: [{name: "RichPicture"}, {name: "Lexico"}]},
-      {dynamic: "Dinâmica II", artefacts: []},
-      {dynamic: "Dinâmica III", artefacts: []},
-      {dynamic: "Dinâmica IV", artefacts: []},
-      {dynamic: "Dinâmica V", artefacts: []}
+      {
+        dynamic: "Dinâmica I",
+        artefacts: [{ name: "RichPicture", link: "/dinamica"}, { name: "Lexico", link:"/dinamica"}]
+      },
+      { dynamic: "Dinâmica II", artefacts: [] },
+      { dynamic: "Dinâmica III", artefacts: [] },
+      { dynamic: "Dinâmica IV", artefacts: [] },
+      { dynamic: "Dinâmica V", artefacts: [] }
     ];
 
     return (
@@ -61,38 +60,44 @@ class Sidenav extends Component {
             <div className="divider" />
           </li>
           <ul className="collapsible">
-            { 
-              dynamics.map((dynamic) => {
-                return(
-                  <li>
-                    <div className="collapsible-header">
-                      <div className="dinamica">{dynamic.dynamic}</div>
-                      <div className="dinamica-button">
-                        <i class="material-icons">{this.state.button}</i>
-                      </div>
+            {dynamics.map(dynamic => {
+              return (
+                <li>
+                  <div className="collapsible-header">
+                    <div className="dinamica">{dynamic.dynamic}</div>
+                    <div className="dinamica-button">
+                      <i class="material-icons">{this.state.button}</i>
                     </div>
-                    <div className="collapsible-body">
-                      <ul>
-                        {
-                          dynamic.artefacts.map((artefact) => {
-                            return(
-                              <li>
-                                <Link to={dinamica} onClick={() => M.AutoInit()}>
-                                  <div className="artifact">
-                                    {artefact.name}
-                                  </div>
-                                </Link>
-                              </li>
-                            );
-                          })
-                        }
-                      </ul>
-                    </div>
-                  </li>
-                );
-              })
-            }
+                  </div>
+                  <div className="collapsible-body">
+                    <ul>
+                      {dynamic.artefacts.map(artefact => {
+                        return (
+                          <li>
+                            <Link to={artefact.link} onClick={() => M.AutoInit()}>
+                              <div className="artifact">{artefact.name}</div>
+                            </Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                </li>
+              );
+            })}
+            <li>
+              <div className="divider" />
+            </li>
           </ul>
+          <li>
+            <div className="collapsible-header">
+              <div className="dinamica">Extras</div>
+              <div className="dinamica-button">
+                <i class="material-icons">{this.state.button}</i>
+              </div>
+            </div>
+            <div className="collapsible-body" />
+          </li>
         </ul>
         <a data-target="slide-out" className="sidenav-trigger sidenav-teste">
           <i className="material-icons small">menu</i>

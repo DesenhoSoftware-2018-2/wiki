@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-const homePath = {
-  pathname: "/"
-};
-
 class Navbar extends Component {
   render() {
     return (
