@@ -3,7 +3,7 @@
 
 ## Argumentação 01 - Escolha do tema do projeto entre a ideia Diego e Banquinha.
 
-![argumentacao01](../../imgs/argumentacao/argumentação01.png)
+![argumentacao01](argumentacao/argumentação01.png)
 
 p1 -  A minha sugestão é uma aplicação mobile chamada Diego, que funcionará consumindo os dados sobre as escalas médicas da Dulce para encaminhar possíveis pacientes. - Isaque
 
