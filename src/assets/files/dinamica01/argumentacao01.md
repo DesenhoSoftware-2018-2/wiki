@@ -21,3 +21,7 @@ p6 - Eu concordo com a Indiara, e acho legal que não precisa restringir somente
 
 
 De acordo com as argumentações acima o tema escolhido para o projeto é a Banquinha, mas os nomes dos projetos ainda podem sofrer alterações.
+
+
+  
+Autores: Amanda Bezerra e Isaque Alves.
