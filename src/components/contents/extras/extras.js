@@ -5,6 +5,7 @@ import Sidenav from "../../structures/sidenav";
 class Extras extends Component {
   render() {
     const extras = [
+      { pathname: "/planoComunicacao", link: "Plano de Comunicação" },
       { pathname: "/reunioes", link: "Reuniões" },
       { pathname: "/fotos", link: "Fotos" },
       { pathname: "/referencia", link: "Referência Bibliográfica" }
