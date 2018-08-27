@@ -41,6 +41,7 @@ class Sidenav extends Component {
 
     const extras = [
       { name: "Plano de Comunicacao", link: "/planoComunicacao" },
+      { name: "Guia de Contribuição", link: "/guiaContribuicao" },
       { name: "Reuniões", link: "/reunioes" },
       { name: "Fotos", link: "/fotos" },
       { name: "Referência Bibliográfica", link:"/referencia"}

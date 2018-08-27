@@ -5,6 +5,7 @@ import Dynamics from '../components/structures/dynamicsComponents/navbarLinks';
 import Reference from '../components/contents/extras/reference';
 import Argumentacoes from '../components/contents/dinamica01/argumentacoes';
 import PlanoComunicacao from '../components/contents/extras/planoComunicacao';
+import GuiaContribuicao from '../components/contents/extras/guiaContribuicao';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -14,6 +15,7 @@ export default () => (
       <Route path="/referencia" exact component={Reference} />
       <Route path="/argumentacoes" exact component={Argumentacoes} />
       <Route path="/planoComunicacao" exact component={PlanoComunicacao} />
+      <Route path="/guiaContribuicao" exact component={GuiaContribuicao} />
     </Switch>
   </BrowserRouter>
 );
