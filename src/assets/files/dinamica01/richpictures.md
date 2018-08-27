@@ -45,3 +45,7 @@ Autor: Isaque Alves
 ###### Conceitual v1.0
 ![richpicture conceitual](richpictures/richpictureConceitualAmanda.jpg)
 Autor: Amanda Muniz
+
+###### Conceitual 2 v1.0
+![richpicture conceitual_2](richpictures/richpictureConceitualVitor.jpg)  
+Autor: Vítor Cardoso
