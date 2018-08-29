@@ -113,3 +113,6 @@ O code review deve ser feito por um ou mais membros da equipe que não participa
 Após pelo menos uma aprovação de Code Review, Status Check (Travis, CodeClimate) o PullRequest poderá ser aceito;
 
 Para aceitar o PullRequest, deve-se usar a opção *merge* no Github.
+
+
+Autor: Isaque Alves
