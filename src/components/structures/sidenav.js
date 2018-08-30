@@ -28,7 +28,7 @@ class Sidenav extends Component {
       {
         dynamic: "Dinâmica I",
         artefacts: [
-          { name: "RichPicture", link: "/dinamica" },
+          { name: "RichPicture", link: "/richpictures" },
           { name: "Lexico", link: "/dinamica" },
           { name: "Argumentações", link: "/argumentacoes" }
         ]
@@ -40,6 +40,8 @@ class Sidenav extends Component {
     ];
 
     const extras = [
+      { name: "Plano de Comunicacao", link: "/planoComunicacao" },
+      { name: "Guia de Contribuição", link: "/guiaContribuicao" },
       { name: "Reuniões", link: "/reunioes" },
       { name: "Fotos", link: "/fotos" },
       { name: "Referência Bibliográfica", link:"/referencia"}
