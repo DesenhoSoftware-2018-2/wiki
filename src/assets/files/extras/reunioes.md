@@ -18,7 +18,9 @@
 - Vitor Cardoso
 
 **Pauta de Reunião:** brainstorming e artefatos
+
 **Discussões abordadas:** brainstorming sobre o tema da aplicação, definição da produção de artefatos.
+
 **Registro das decisões:**
 
 Na primeira parte da reunião foram entregues os seguintes artefatos:
