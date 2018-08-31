@@ -6,6 +6,7 @@ import Reference from '../components/contents/extras/reference';
 import Argumentacoes from '../components/contents/dinamica01/argumentacoes';
 import PlanoComunicacao from '../components/contents/extras/planoComunicacao';
 import GuiaContribuicao from '../components/contents/extras/guiaContribuicao';
+import Reunioes from '../components/contents/extras/reunioes';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -16,6 +17,7 @@ export default () => (
       <Route path="/argumentacoes" exact component={Argumentacoes} />
       <Route path="/planoComunicacao" exact component={PlanoComunicacao} />
       <Route path="/guiaContribuicao" exact component={GuiaContribuicao} />
+      <Route path="/reunioes" exact component={Reunioes} />
     </Switch>
   </BrowserRouter>
 );
