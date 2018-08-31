@@ -34,7 +34,11 @@ class Sidenav extends Component {
           { name: "Argumentações", link: "/argumentacoes" }
         ]
       },
-      { dynamic: "Dinâmica II", artefacts: [] },
+      { dynamic: "Dinâmica II",
+        artefacts: [
+          { name: "Metodologia e Definições", link: "/metodologiaDefinicoes" }
+        ]
+      },
       { dynamic: "Dinâmica III", artefacts: [] },
       { dynamic: "Dinâmica IV", artefacts: [] },
       { dynamic: "Dinâmica V", artefacts: [] }
