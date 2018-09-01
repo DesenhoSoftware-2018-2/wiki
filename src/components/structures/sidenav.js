@@ -36,8 +36,7 @@ class Sidenav extends Component {
       },
       { dynamic: "Dinâmica II",
         artefacts: [
-          { name: "Metodologia e Definições", link: "/metodologiaDefinicoes" },
-          { name: "Ritos adotados", link: "/ritosAdotados" }
+          { name: "Metodologia e Definições", link: "/metodologiaDefinicoes" }
         ]
       },
       { dynamic: "Dinâmica III", artefacts: [] },

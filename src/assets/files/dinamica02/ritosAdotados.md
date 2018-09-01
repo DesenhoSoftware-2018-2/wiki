@@ -1,5 +1,0 @@
-# Ritos Adotados
-
-### Sprint
-
-Início: 
