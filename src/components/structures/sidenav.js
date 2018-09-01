@@ -30,7 +30,8 @@ class Sidenav extends Component {
         artefacts: [
           { name: "RichPicture", link: "/richpictures" },
           { name: "Lexico", link: "/dinamica" },
-          { name: "Argumentações", link: "/argumentacoes" }
+          { name: "Argumentações", link: "/argumentacoes" },
+          { name: "5w2h", link: "/5w2h" }
         ]
       },
       { dynamic: "Dinâmica II", artefacts: [] },
