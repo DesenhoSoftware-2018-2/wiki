@@ -5,6 +5,7 @@ import Sidenav from "../../structures/sidenav";
 class Dinamica02 extends Component {
   render() {
     const artefatos = [
+      { pathname: "/prototipo", link: "Protótipo" }
     ];
 
     return (
