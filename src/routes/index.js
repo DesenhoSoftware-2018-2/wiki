@@ -8,6 +8,7 @@ import PlanoComunicacao from '../components/contents/extras/planoComunicacao';
 import GuiaContribuicao from '../components/contents/extras/guiaContribuicao';
 import Reunioes from '../components/contents/extras/reunioes';
 import wh from '../components/contents/dinamica01/5w2h';
+import Prototipo from '../components/contents/dinamica02/prototipo';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -20,6 +21,7 @@ export default () => (
       <Route path="/planoComunicacao" exact component={PlanoComunicacao} />
       <Route path="/guiaContribuicao" exact component={GuiaContribuicao} />
       <Route path="/reunioes" exact component={Reunioes} />
+      <Route path="/prototipo" exact component={Prototipo} />
     </Switch>
   </BrowserRouter>
 );
