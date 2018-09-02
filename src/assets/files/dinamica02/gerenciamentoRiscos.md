@@ -35,5 +35,9 @@ Baixa produtividade dos integrantes - Risco relacionado à baixa produtividade d
 Baixa adesão dos usuários a aplicação - Risco relacionado à utilização e evolução do projeto no mercado.  
 Produto não atende às necessidades do público alvo - Risco relacionado à utilização e evolução do projeto no mercado.  
 
+### 3. Matriz de Probabilidade X Impacto
 
+A matriz abaixo utiliza a combinação dos eixos X (Impacto) e Y (Probabilidade) que auxiliam na priorização dos riscos de acordo com sua significância.  
+
+![Matriz de Probabilidade X Impacto](dinamica02/matrizProbabilidadeImpacto.png)  
 Autor: Isaque Alves.
