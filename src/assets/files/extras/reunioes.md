@@ -40,3 +40,37 @@ Na segunda parte da reunião o grupo realizou um brainstorming para entender mel
 |Indiara Duarte e João Vitor|Mapa mental|
 |Vitor Cardoso|Léxicos|
 |Todos|Rich Pictures versão 2.0|
+
+---
+
+
+### Pauta de reunião - 20/08 parte 2
+
+**Data:** 20 de agosto de 2018.
+
+**Horário de início:** 15h30min.
+
+**Horário de término:** 17h30min.
+
+**Pessoas presentes:**
+- Amanda Muniz
+- Bruno Oliveira
+- Calebe Rios
+- Indiara Duarte
+- Isaque Alves
+- João Vitor
+- Luciana Ribeiro
+- Vitor Cardoso
+
+**Pauta de Reunião:** Dojo e Brainstorming
+
+**Discussões abordadas:** Dojo de react para o grupo. E na segunda parte da reunião o grupo realizou um brainstorming para levantar ideias sobre o nome e a logo do grupo. Além de recolher mais ideias para melhorar a visualização dos artefatos na wiki.
+
+
+**Registro das decisões:** O react será utilizado para desenvolver a wiki.
+
+Possíveis nomes para o grupo:
+- Arnold
+- Énea
+- Lean
+
