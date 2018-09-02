@@ -36,7 +36,8 @@ class Sidenav extends Component {
       },
       { dynamic: "Dinâmica II",
         artefacts: [
-          { name: "Metodologia e Definições", link: "/metodologiaDefinicoes" }
+          { name: "Metodologia e Definições", link: "/metodologiaDefinicoes" },
+          { name: "Plano de Gerenciamento de Riscos", link: "/gerenciamentoRiscos" }
         ]
       },
       { dynamic: "Dinâmica III", artefacts: [] },

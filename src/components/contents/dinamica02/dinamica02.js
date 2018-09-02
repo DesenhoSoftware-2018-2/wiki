@@ -5,7 +5,8 @@ import Sidenav from "../../structures/sidenav";
 class Dinamica02 extends Component {
   render() {
     const artefatos = [
-      { pathname: "/metodologiaDefinicoes", link: "Metodologia e Definições" }
+      { pathname: "/metodologiaDefinicoes", link: "Metodologia e Definições" },
+      { pathname: "/gerenciamentoRiscos", link: "Plano de Gerenciamento de Riscos" }
     ];
 
     return (
