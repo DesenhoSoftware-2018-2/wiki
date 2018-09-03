@@ -9,6 +9,9 @@ import GuiaContribuicao from '../components/contents/extras/guiaContribuicao';
 import Reunioes from '../components/contents/extras/reunioes';
 import wh from '../components/contents/dinamica01/5w2h';
 import Prototipo from '../components/contents/dinamica02/prototipo';
+import MetodologiaDefinicoes from '../components/contents/dinamica02/metodologiaDefinicoes';
+import GerenciamentoRiscos from '../components/contents/dinamica02/gerenciamentoRiscos';
+import MonitoramentoRiscos from '../components/contents/dinamica02/monitoramentoRiscos';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -22,6 +25,9 @@ export default () => (
       <Route path="/guiaContribuicao" exact component={GuiaContribuicao} />
       <Route path="/reunioes" exact component={Reunioes} />
       <Route path="/prototipo" exact component={Prototipo} />
+      <Route path="/metodologiaDefinicoes" exact component={MetodologiaDefinicoes} />
+      <Route path="/gerenciamentoRiscos" exact component={GerenciamentoRiscos} />
+      <Route path="/monitoramentoRiscos" exact component={MonitoramentoRiscos} />
     </Switch>
   </BrowserRouter>
 );

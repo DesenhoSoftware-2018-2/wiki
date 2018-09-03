@@ -34,11 +34,13 @@ class Sidenav extends Component {
           { name: "Argumentações", link: "/argumentacoes" }
         ]
       },
-      {
-        dynamic: "Dinâmica II",
+      { dynamic: "Dinâmica II",
         artefacts: [
+          { name: "Metodologia e Definições", link: "/metodologiaDefinicoes" },
+          { name: "Gerenciamento de Riscos", link: "/gerenciamentoRiscos" },
+          { name: "Monitoramento e Controle Riscos", link: "/monitoramentoRiscos" },
           { name: "Protótipo", link: "/prototipo" }
-        ] 
+        ]
       },
       { dynamic: "Dinâmica III", artefacts: [] },
       { dynamic: "Dinâmica IV", artefacts: [] },
