@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.25ffe4dc.css",
   "main.css.map": "static/css/main.25ffe4dc.css.map",
-  "main.js": "static/js/main.7b714a61.js",
-  "main.js.map": "static/js/main.7b714a61.js.map",
+  "main.js": "static/js/main.1dfaabcd.js",
+  "main.js.map": "static/js/main.1dfaabcd.js.map",
   "static/media/5w2h.md": "static/media/5w2h.b308ee82.md",
   "static/media/Drive.png": "static/media/Drive.4ecf4455.png",
   "static/media/GitHub.png": "static/media/GitHub.648080ce.png",
@@ -15,6 +15,8 @@
   "static/media/background.jpeg": "static/media/background.e3f6aa34.jpeg",
   "static/media/bruno.jpeg": "static/media/bruno.a4c8e9f6.jpeg",
   "static/media/calebe.jpeg": "static/media/calebe.a7b1cd0e.jpeg",
+  "static/media/estruturaAnaliticaRiscos.png": "static/media/estruturaAnaliticaRiscos.e0551dab.png",
+  "static/media/gerenciamentoRiscos.md": "static/media/gerenciamentoRiscos.098433f5.md",
   "static/media/guiaContribuicao.md": "static/media/guiaContribuicao.0ec2dbe7.md",
   "static/media/img1.jpg": "static/media/img1.3926c2bd.jpg",
   "static/media/img2.jpg": "static/media/img2.4828469a.jpg",
@@ -27,8 +29,11 @@
   "static/media/luciana.jpg": "static/media/luciana.d24d51b2.jpg",
   "static/media/martha.jpeg": "static/media/martha.8769728a.jpeg",
   "static/media/martha.jpg": "static/media/martha.6823e785.jpg",
+  "static/media/matrizProbabilidadeImpacto.png": "static/media/matrizProbabilidadeImpacto.cac2769f.png",
+  "static/media/metodologiaDefinicoes.md": "static/media/metodologiaDefinicoes.1e2a6fd7.md",
+  "static/media/monitoramentoRiscos.md": "static/media/monitoramentoRiscos.3a5d0f6e.md",
   "static/media/planoComunicacao.md": "static/media/planoComunicacao.0a13d15a.md",
   "static/media/reference.md": "static/media/reference.25789c99.md",
-  "static/media/reunioes.md": "static/media/reunioes.c453e349.md",
+  "static/media/reunioes.md": "static/media/reunioes.993105b6.md",
   "static/media/test.md": "static/media/test.e5699fc5.md"
 }
