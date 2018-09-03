@@ -15,6 +15,12 @@ Autores: Amanda Muniz, Bruno Oliveira, João Vitor
 ##### Home
 ![home](prototipo/home.png)
 
+##### Criar Monitoria
+![monitoria](prototipo/criar_monitoria.png)
+
+##### Busca
+![busca](prototipo/busca.jpg)
+
 ##### Feed Conferência
 ![conferencia](prototipo/conferencia.png)
 
@@ -23,6 +29,9 @@ Autores: Amanda Muniz, Bruno Oliveira, João Vitor
 
 ##### Match
 ![match](prototipo/match.png)
+
+##### Chat
+![chat](prototipo/chat.png)
 
 ##### Sidenav
 ![sidenav](prototipo/sidenav.png)
