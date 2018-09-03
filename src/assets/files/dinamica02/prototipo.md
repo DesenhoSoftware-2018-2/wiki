@@ -4,22 +4,34 @@
 
 *Obs.: O protótipo a seguir não contém a paleta de cores escolhida para a aplicação. E a versão final do mesmo, pode e terá alterações futuras.*
 
+Autores: Amanda Muniz, Bruno Oliveira, João Vitor
+
+##### Logo
 ![logo](prototipo/logo.png)
 
+##### Login
 ![login](prototipo/login.png)
 
+##### Home
 ![home](prototipo/home.png)
 
+##### Feed Conferência
 ![conferencia](prototipo/conferencia.png)
 
+##### Detalhamento da monitoria
 ![monitoria](prototipo/monitoria.png)
 
+##### Match
 ![match](prototipo/match.png)
 
+##### Sidenav
 ![sidenav](prototipo/sidenav.png)
 
+##### Perfil
 ![perfil](prototipo/perfil.png)
 
+##### Relatório
 ![relatorio](prototipo/relatorio.png)
 
+##### Avaliação
 ![avaliacao](prototipo/avaliacao.png)
