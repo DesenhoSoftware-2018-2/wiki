@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - '8.9.4'
+  - '10.4.0'
 
 cache:
   npm: true
@@ -9,4 +9,4 @@ cache:
     - node_modules
 
 script:
-  - npm run deploy
+  - bash ./deploy.sh
