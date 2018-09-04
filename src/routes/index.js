@@ -4,6 +4,7 @@ import HomePage from '../components/structures/homePage/Home';
 import Dynamics from '../components/structures/dynamicsComponents/navbarLinks';
 import Reference from '../components/contents/extras/reference';
 import Argumentacoes from '../components/contents/dinamica01/argumentacoes';
+import Richpictures from '../components/contents/dinamica01/richpictures';
 import PlanoComunicacao from '../components/contents/extras/planoComunicacao';
 import GuiaContribuicao from '../components/contents/extras/guiaContribuicao';
 import Reunioes from '../components/contents/extras/reunioes';
@@ -21,6 +22,7 @@ export default () => (
       <Route path="/referencia" exact component={Reference} />
       <Route path="/5w2h" exact component={wh} />
       <Route path="/argumentacoes" exact component={Argumentacoes} />
+      <Route path="/richpictures" exact component={Richpictures} />
       <Route path="/planoComunicacao" exact component={PlanoComunicacao} />
       <Route path="/guiaContribuicao" exact component={GuiaContribuicao} />
       <Route path="/reunioes" exact component={Reunioes} />
