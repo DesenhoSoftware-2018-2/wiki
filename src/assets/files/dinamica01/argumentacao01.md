@@ -1,7 +1,7 @@
 
 # Argumentação
 
-## Argumentação 01 - Escolha do tema do projeto entre a ideia Diego e Banquinha.
+### Argumentação 01 - Escolha do tema do projeto entre a ideia Diego e Banquinha.
 
 ![argumentacao01](argumentacao/argumentação01.png)
 

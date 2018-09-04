@@ -28,18 +28,27 @@ class Sidenav extends Component {
       {
         dynamic: "Dinâmica I",
         artefacts: [
+          { name: "5w2h", link: "/5w2h" },
           { name: "RichPicture", link: "/richpictures" },
           { name: "Lexico", link: "/dinamica" },
           { name: "Argumentações", link: "/argumentacoes" }
         ]
       },
-      { dynamic: "Dinâmica II", artefacts: [] },
+      { dynamic: "Dinâmica II",
+        artefacts: [
+          { name: "Metodologia e Definições", link: "/metodologiaDefinicoes" },
+          { name: "Plano de Gerenciamento de Riscos", link: "/gerenciamentoRiscos" },
+          { name: "Monitoramento e Controle Riscos", link: "/monitoramentoRiscos" }
+        ]
+      },
       { dynamic: "Dinâmica III", artefacts: [] },
       { dynamic: "Dinâmica IV", artefacts: [] },
       { dynamic: "Dinâmica V", artefacts: [] }
     ];
 
     const extras = [
+      { name: "Plano de Comunicacao", link: "/planoComunicacao" },
+      { name: "Guia de Contribuição", link: "/guiaContribuicao" },
       { name: "Reuniões", link: "/reunioes" },
       { name: "Fotos", link: "/fotos" },
       { name: "Referência Bibliográfica", link:"/referencia"}
