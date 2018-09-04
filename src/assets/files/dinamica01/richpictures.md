@@ -57,3 +57,9 @@ Autor: João Vitor
 ###### Conceitual 3 v2.0
 ![richpicture conceitual_3V2](richpictures/richpictureConceitualV2Joao.jpg)  
 Autor: Joao Vitor
+
+###### Conceitual 4 v1.0
+![richpicture conceitual_4](richpictures/richpictureConceitualBruno.jpg)
+
+Autor: Bruno Dantas
+
