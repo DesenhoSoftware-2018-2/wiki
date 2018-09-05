@@ -35,7 +35,8 @@ class Markdown extends Component {
                 <ReactMarkdown
                     source={this.state.terms}
                     renderers={{ link: this.RouterLink}}
-                    transformImageUri={transformImageUri} />
+                    transformImageUri={transformImageUri}
+                    escapeHtml={false} />
             </div>
         );
     }
