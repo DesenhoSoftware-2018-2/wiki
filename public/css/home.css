@@ -10,3 +10,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+strong{
+    font-family: 'Roboto', sans-serif !important;
+}
