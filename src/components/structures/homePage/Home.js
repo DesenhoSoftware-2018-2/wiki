@@ -18,7 +18,7 @@ class Home extends Component {
         name: "Amanda Muniz",
         git: "AmandaMuniz",
         email: "amymuniiz@gmail.com",
-        frase: '"FRASE"'
+        frase: '"Votei por dó."'
       },
       {
         img: "bruno.jpeg",
