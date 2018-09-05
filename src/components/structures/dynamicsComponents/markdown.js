@@ -14,7 +14,7 @@ class Markdown extends Component {
         fetch(file).then((r) => r.text()).then((t) => {
             this.setState({ terms: t })
         })
-    }
+    }  
 
     RouterLink(props) {
         return (
@@ -25,7 +25,6 @@ class Markdown extends Component {
     }
 
     render() {
-        console.log(this.props);
         const transformImageUri = input =>
         /^https?:/.test(input)
                 ? input

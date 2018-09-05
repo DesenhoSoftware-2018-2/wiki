@@ -9,9 +9,9 @@ class Navbar extends Component {
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             {
               this.props.activities.map(
-                (activity) => {
+                (activity, i) => {
                   return (
-                    <li>
+                    <li key={i}>
                       <Link to={activity.pathname}>
                         <span className="white-text name">{activity.link}</span>
                       </Link>
