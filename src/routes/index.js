@@ -5,6 +5,7 @@ import Dynamics from '../components/structures/dynamicsComponents/navbarLinks';
 import Reference from '../components/contents/extras/reference';
 import Argumentacoes from '../components/contents/dinamica01/argumentacoes';
 import Richpictures from '../components/contents/dinamica01/richpictures';
+import Brainstorming from '../components/contents/dinamica01/brainstorming';
 import PlanoComunicacao from '../components/contents/extras/planoComunicacao';
 import GuiaContribuicao from '../components/contents/extras/guiaContribuicao';
 import Reunioes from '../components/contents/extras/reunioes';
@@ -23,6 +24,7 @@ export default () => (
       <Route path="/5w2h" exact component={wh} />
       <Route path="/argumentacoes" exact component={Argumentacoes} />
       <Route path="/richpictures" exact component={Richpictures} />
+      <Route path="/brainstorming" exact component={Brainstorming} />
       <Route path="/planoComunicacao" exact component={PlanoComunicacao} />
       <Route path="/guiaContribuicao" exact component={GuiaContribuicao} />
       <Route path="/reunioes" exact component={Reunioes} />

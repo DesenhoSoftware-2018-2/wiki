@@ -31,7 +31,8 @@ class Sidenav extends Component {
           { name: "5w2h", link: "/5w2h" },
           { name: "RichPicture", link: "/richpictures" },
           { name: "Lexico", link: "/dinamica" },
-          { name: "Argumentações", link: "/argumentacoes" }
+          { name: "Argumentações", link: "/argumentacoes" },
+          { name: "Brainstorming", link: "/brainstorming" },
         ]
       },
       { dynamic: "Dinâmica II",

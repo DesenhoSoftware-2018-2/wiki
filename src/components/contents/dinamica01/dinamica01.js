@@ -8,7 +8,7 @@ class Dinamica01 extends Component {
       { pathname: "/argumentacoes", link: "Argumentações" },
       { pathname: "/richpictures", link: "Rich Pictures" },
       { pathname: "/5w2h", link: "5w2h" },
-      { pathname: "/argumentacoes", link: "Argumentações" }
+      { pathname: "/brainstorming", link: "Brainstorming" }
     ];
 
     return (
