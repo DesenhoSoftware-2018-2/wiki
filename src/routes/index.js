@@ -13,6 +13,7 @@ import Prototipo from '../components/contents/dinamica02/prototipo';
 import MetodologiaDefinicoes from '../components/contents/dinamica02/metodologiaDefinicoes';
 import GerenciamentoRiscos from '../components/contents/dinamica02/gerenciamentoRiscos';
 import MonitoramentoRiscos from '../components/contents/dinamica02/monitoramentoRiscos';
+import DesignSprint from '../components/contents/dinamica01/designsprint';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -30,6 +31,7 @@ export default () => (
       <Route path="/metodologiaDefinicoes" exact component={MetodologiaDefinicoes} />
       <Route path="/gerenciamentoRiscos" exact component={GerenciamentoRiscos} />
       <Route path="/monitoramentoRiscos" exact component={MonitoramentoRiscos} />
+      <Route path="/designsprint" exact component={DesignSprint} />
     </Switch>
   </BrowserRouter>
 );
