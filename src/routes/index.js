@@ -13,7 +13,12 @@ import Prototipo from '../components/contents/dinamica02/prototipo';
 import MetodologiaDefinicoes from '../components/contents/dinamica02/metodologiaDefinicoes';
 import GerenciamentoRiscos from '../components/contents/dinamica02/gerenciamentoRiscos';
 import MonitoramentoRiscos from '../components/contents/dinamica02/monitoramentoRiscos';
-import DesignSprint from '../components/contents/dinamica01/designsprint';
+import DesignSprint from '../components/contents/dinamica01/designSprint/designsprint';
+import Primeiro from '../components/contents/dinamica01/designSprint/primeiro';
+import Segundo from '../components/contents/dinamica01/designSprint/segundo';
+import Terceiro from '../components/contents/dinamica01/designSprint/terceiro';
+import Quarto from '../components/contents/dinamica01/designSprint/quarto';
+import Quinto from '../components/contents/dinamica01/designSprint/quinto';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -32,6 +37,11 @@ export default () => (
       <Route path="/gerenciamentoRiscos" exact component={GerenciamentoRiscos} />
       <Route path="/monitoramentoRiscos" exact component={MonitoramentoRiscos} />
       <Route path="/designsprint" exact component={DesignSprint} />
+      <Route path="/designsprint/entender" exact component={Primeiro} />
+      <Route path="/designsprint/esbocar" exact component={Segundo} />
+      <Route path="/designsprint/decidir" exact component={Terceiro} />
+      <Route path="/designsprint/prototipar" exact component={Quarto} />
+      <Route path="/designsprint/testar" exact component={Quinto} />
     </Switch>
   </BrowserRouter>
 );
