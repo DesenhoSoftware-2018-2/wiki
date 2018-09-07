@@ -8,7 +8,7 @@ class DesignSprint extends Component {
           <div>
             <DesignSprintNavbar />
             <div className="container">
-              <Markdown file="dinamica01/designsprint" />
+              <Markdown file="dinamica01/designSprint/designsprint" />
             </div>
           </div>
         );

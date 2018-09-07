@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import DesignSprintNavbar from './designsprintNavbar';
+import Markdown from '../../../structures/dynamicsComponents/markdown';
 
 class Quinto extends Component{
 
@@ -7,6 +8,9 @@ class Quinto extends Component{
         return(
             <div>
                 <DesignSprintNavbar />
+                <div className="container">
+                    <Markdown file="dinamica01/designSprint/quinto"/>
+                </div>
             </div>
         );
     }
