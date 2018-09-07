@@ -134,7 +134,7 @@ class Sidenav extends Component {
             </li>
           </ul>
         </ul>
-        <a data-target="slide-out" className="sidenav-trigger sidenav-teste">
+        <a data-target="slide-out" className="sidenav-trigger sidenav-teste pulse waves-effect">
           <i className="material-icons small">menu</i>
         </a>
       </div>
