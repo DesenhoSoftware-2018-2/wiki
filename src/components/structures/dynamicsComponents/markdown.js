@@ -14,7 +14,7 @@ class Markdown extends Component {
         fetch(file).then((r) => r.text()).then((t) => {
             this.setState({ terms: t })
         })
-    }
+    }  
 
     RouterLink(props) {
         return (
@@ -25,7 +25,6 @@ class Markdown extends Component {
     }
 
     render() {
-        console.log(this.props);
         const transformImageUri = input =>
         /^https?:/.test(input)
                 ? input
@@ -36,7 +35,8 @@ class Markdown extends Component {
                 <ReactMarkdown
                     source={this.state.terms}
                     renderers={{ link: this.RouterLink}}
-                    transformImageUri={transformImageUri} />
+                    transformImageUri={transformImageUri}
+                    escapeHtml={false} />
             </div>
         );
     }

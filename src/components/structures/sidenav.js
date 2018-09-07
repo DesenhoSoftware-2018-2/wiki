@@ -81,20 +81,20 @@ class Sidenav extends Component {
             <div className="divider" />
           </li>
           <ul className="collapsible">
-            {dynamics.map(dynamic => {
+            {dynamics.map((dynamic, i) => {
               return (
-                <li>
+                <li key={i}>
                   <div className="collapsible-header">
                     <div className="dinamica">{dynamic.dynamic}</div>
                     <div className="dinamica-button">
-                      <i class="material-icons">{this.state.button}</i>
+                      <i className="material-icons">{this.state.button}</i>
                     </div>
                   </div>
                   <div className="collapsible-body">
                     <ul>
-                      {dynamic.artefacts.map(artefact => {
+                      {dynamic.artefacts.map((artefact, i) => {
                         return (
-                          <li>
+                          <li key={i}>
                             <Link
                               to={artefact.link}
                               onClick={() => M.AutoInit()}
@@ -116,14 +116,14 @@ class Sidenav extends Component {
               <div className="collapsible-header">
                 <div className="dinamica">Extras</div>
                 <div className="dinamica-button">
-                  <i class="material-icons">{this.state.button}</i>
+                  <i className="material-icons">{this.state.button}</i>
                 </div>
               </div>
               <div className="collapsible-body">
                 <ul>
-                  {extras.map(extra => {
+                  {extras.map((extra, i) => {
                     return (
-                      <li>
+                      <li key={i}>
                         <Link to={extra.link} onClick={() => M.AutoInit()}>
                           <div className="artifact">{extra.name}</div>
                         </Link>
