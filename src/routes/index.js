@@ -3,16 +3,17 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import HomePage from '../components/structures/homePage/Home';
 import Dynamics from '../components/structures/dynamicsComponents/navbarLinks';
 import Reference from '../components/contents/extras/reference';
-import Argumentacoes from '../components/contents/dinamica01/argumentacoes';
-import Richpictures from '../components/contents/dinamica01/richpictures';
 import PlanoComunicacao from '../components/contents/extras/planoComunicacao';
 import GuiaContribuicao from '../components/contents/extras/guiaContribuicao';
 import Reunioes from '../components/contents/extras/reunioes';
-import wh from '../components/contents/dinamica01/5w2h';
-import Prototipo from '../components/contents/dinamica02/prototipo';
 import MetodologiaDefinicoes from '../components/contents/dinamica02/metodologiaDefinicoes';
 import GerenciamentoRiscos from '../components/contents/dinamica02/gerenciamentoRiscos';
 import MonitoramentoRiscos from '../components/contents/dinamica02/monitoramentoRiscos';
+import wh from '../components/contents/dinamica01/pre-rastreabilidade/5w2h';
+import Argumentacoes from '../components/contents/dinamica01/pre-rastreabilidade/argumentacoes';
+import Richpictures from '../components/contents/dinamica01/pre-rastreabilidade/richpictures';
+import Prototipo from '../components/contents/dinamica01/elicitacao/prototipo';
+import AnaliseProtocolo from '../components/contents/dinamica01/elicitacao/analiseProtocolo';
 
 export default () => (
   <BrowserRouter basename="/wiki">

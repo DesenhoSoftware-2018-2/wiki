@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Dinamica01 from './dinamica01';
-import Markdown from '../../structures/dynamicsComponents/markdown';
+import Dinamica01 from '../dinamica01';
+import Markdown from '../../../structures/dynamicsComponents/markdown';
 
 class wh extends Component {
   render() {
@@ -8,7 +8,7 @@ class wh extends Component {
       <div>
         <Dinamica01 />
         <div className="container">
-          <Markdown file="dinamica01/5w2h" />
+          <Markdown file="dinamica01/pre-rastreabilidade/5w2h" />
         </div>
       </div>
     );

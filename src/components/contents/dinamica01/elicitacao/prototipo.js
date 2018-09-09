@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Dinamica02 from './dinamica02';
-import Markdown from '../../structures/dynamicsComponents/markdown';
+import Dinamica02 from '../dinamica01';
+import Markdown from '../../../structures/dynamicsComponents/markdown';
 
 class Prototipo extends Component {
   render() {
@@ -8,7 +8,7 @@ class Prototipo extends Component {
       <div>
         <Dinamica02 />
         <div className="container">
-          <Markdown file="dinamica02/prototipo" />
+          <Markdown file="dinamica01/elicitacao/prototipo" />
         </div>
       </div>
     );
