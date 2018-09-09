@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import Markdown from "../../../structures/dynamicsComponents/markdown";
-import ElicitacaoNav from "./elicitacaoNav";
+import PriorizacaoNav from "./priorizacaoNav";
 
-class AnaliseProtocolo extends Component {
+class Priorizacao extends Component {
   render() {
     return (
       <div>
-        <ElicitacaoNav />
+        <PriorizacaoNav />
         <div className="container">
-          <Markdown file="dinamica01/elicitacao/analiseProtocolo" />
+          <Markdown file="dinamica01/priorizacao/priorizacao" />
         </div>
       </div>
     );
   }
-} export default AnaliseProtocolo;
+} export default Priorizacao;

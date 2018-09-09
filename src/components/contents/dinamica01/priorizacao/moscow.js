@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import Markdown from '../../../structures/dynamicsComponents/markdown';
-import PreRastreabilidadeNav from "./pre-rastreabilidadeNav";
+import PriorizacaoNav from './priorizacaoNav';
 
-class wh extends Component {
+class Moscow extends Component {
   render() {
     return (
       <div>
-        <PreRastreabilidadeNav />
+        <PriorizacaoNav />
         <div className="container">
-          <Markdown file="dinamica01/pre-rastreabilidade/5w2h" />
+          <Markdown file="dinamica01/priorizacao/moscow" />
         </div>
       </div>
     );
   }
-} export default wh;
+} export default Moscow;

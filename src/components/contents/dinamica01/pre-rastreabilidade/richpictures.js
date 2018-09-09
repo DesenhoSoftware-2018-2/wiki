@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Dinamica01 from '../dinamica01';
 import Markdown from '../../../structures/dynamicsComponents/markdown';
+import PreRastreabilidadeNav from "./pre-rastreabilidadeNav";
 
 class Richpictures extends Component {
   render() {
     return (
       <div>
-        <Dinamica01 />
+        <PreRastreabilidadeNav />
         <div className="container">
           <Markdown file="dinamica01/pre-rastreabilidade/richpictures" />
         </div>
