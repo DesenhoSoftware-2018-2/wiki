@@ -15,3 +15,7 @@ Autor: Isaque Alves
 ###### Definição de metodologia
 ![definicao_metodologia](brainstorming/definicaoMetodologias.jpg)  
 Autor: Isaque Alves
+
+###### Definição de tema a ser trabalhado na disciplina
+![definicao_tema](brainstorming/definicaoTemas.jpg)  
+Autor: Toda a equipe

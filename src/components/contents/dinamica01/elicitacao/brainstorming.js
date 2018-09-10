@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import Dinamica01 from './dinamica01';
-import Markdown from '../../structures/dynamicsComponents/markdown';
+import Markdown from '../../../structures/dynamicsComponents/markdown';
+import PreRastreabilidadeNav from "./elicitacaoNav";
 
 class Brainstorming extends Component {
   render() {
     return (
       <div>
-        <Dinamica01 />
+        <PreRastreabilidadeNav />
         <div className="container">
-          <Markdown file="dinamica01/brainstorming" />
+          <Markdown file="dinamica01/elicitacao/brainstorming" />
         </div>
       </div>
     );
