@@ -79,3 +79,7 @@ A análise de discurso dura de 05:00 até 30:00 no seguinte vídeo [https://www.
 - Complemento - Isaque
 <p align="justify">&emsp;
 “Implementar um chat não é algo trivial. Na parte dos relatórios vamos estar usando Data Science e isso está muito em alta no mercado atualmente. Se implementarmos isso agregaria muito mais valor que o chat.”</p>
+
+### Conclusão
+<p align="justify">&emsp;
+De acordo com os argumentos acima o escopo ficou definido da seguinte maneira: monitoria e relatórios como macro funcionalidades, perfil e busca essenciais, técnicas de gamificação para motivação do usuário e, por útlimo, chat não será implementado.</p>
