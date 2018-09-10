@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import Dinamica02 from './dinamica02';
-import Markdown from '../../structures/dynamicsComponents/markdown';
+import Markdown from '../../../structures/dynamicsComponents/markdown';
+import ElicitacaoNav from "./elicitacaoNav";
 
 class AnaliseDiscurso extends Component {
   render() {
     return (
       <div>
-        <Dinamica02 />
+        <ElicitacaoNav />
         <div className="container">
-          <Markdown file="dinamica02/analiseDiscurso" />
+          <Markdown file="dinamica01/elicitacao/analiseDiscurso" />
         </div>
       </div>
     );

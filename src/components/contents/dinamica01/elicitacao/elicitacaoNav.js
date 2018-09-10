@@ -7,7 +7,8 @@ class ElicitacaoNav extends Component {
     const artefatos = [
       { pathname: "/elicitacao", link: "Bio" },
       { pathname: "/prototipo", link: "Prototipo" },
-      { pathname: "/analiseprotocolo", link: "Análise de Protocolo"}
+      { pathname: "/analiseprotocolo", link: "Análise de Protocolo"},
+      { pathname: "/analisediscurso", link: "Análise de Discurso"}
     ];
 
     return (
@@ -20,4 +21,3 @@ class ElicitacaoNav extends Component {
 }
 
 export default ElicitacaoNav;
- 

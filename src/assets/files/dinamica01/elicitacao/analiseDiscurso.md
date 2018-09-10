@@ -1,6 +1,6 @@
 # Análise de Discurso
 
-### Participantes:
+### Participantes
 - Bruno Oliveira
 - Calebe Rios
 - Indiara Duarte
@@ -9,20 +9,20 @@
 - Luciana Ribeiro
 - Vitor Cardoso
 
-### Mediadora:
+### Mediadora
 - Amanda Muniz
 
-### Regras:
+### Regras
 - Um turno é dividido em uma fala, uma réplica, uma tréplica e um complemento. Sendo o complemento opcional.
 - Uma fala tem duração máxima de 1min30s.
 - Um réplica tem duração máxima de 1min30s.
 - Uma tréplica tem duração máxima de 1min.
 - Um complemento tem duração máxima de 40s.
 
-### Tema:
+### Tema
 Definição do escopo da aplicação.
 
-### Vídeo:
+### Vídeo
 A análise de discurso dura de 05:00 até 30:00 no seguinte vídeo [https://www.youtube.com/watch?v=NKmDdEurVRM](https://www.youtube.com/watch?v=NKmDdEurVRM)
 
 ### Primeira rodada
