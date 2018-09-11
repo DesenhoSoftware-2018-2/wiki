@@ -21,6 +21,7 @@ import Priorizacao from '../components/contents/dinamica01/priorizacao/priorizac
 import Moscow from '../components/contents/dinamica01/priorizacao/moscow';
 import FirstThingsFirst from '../components/contents/dinamica01/priorizacao/firstThingsFirst';
 import Modelagem from '../components/contents/dinamica01/modelagem/modelagem';
+import AnaliseDiscurso from '../components/contents/dinamica01/elicitacao/analiseDiscurso';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -46,6 +47,7 @@ export default () => (
       <Route path="/moscow" exact component={Moscow} />
       <Route path="/ftf" exact component={FirstThingsFirst} />
       <Route path="/modelagem" exact component={Modelagem} />
+      <Route path="/analisediscurso"  exact component={AnaliseDiscurso} />
     </Switch>
   </BrowserRouter>
 );
