@@ -3,13 +3,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import HomePage from '../components/structures/homePage/Home';
 import Dynamics from '../components/structures/dynamicsComponents/navbarLinks';
 import Reference from '../components/contents/extras/reference';
-import Argumentacoes from '../components/contents/dinamica01/argumentacoes';
-import Richpictures from '../components/contents/dinamica01/richpictures';
 import PlanoComunicacao from '../components/contents/extras/planoComunicacao';
 import GuiaContribuicao from '../components/contents/extras/guiaContribuicao';
 import Reunioes from '../components/contents/extras/reunioes';
-import wh from '../components/contents/dinamica01/5w2h';
-import Prototipo from '../components/contents/dinamica02/prototipo';
 import MetodologiaDefinicoes from '../components/contents/dinamica02/metodologiaDefinicoes';
 import GerenciamentoRiscos from '../components/contents/dinamica02/gerenciamentoRiscos';
 import MonitoramentoRiscos from '../components/contents/dinamica02/monitoramentoRiscos';
@@ -19,6 +15,18 @@ import Segundo from '../components/contents/dinamica01/designSprint/segundo';
 import Terceiro from '../components/contents/dinamica01/designSprint/terceiro';
 import Quarto from '../components/contents/dinamica01/designSprint/quarto';
 import Quinto from '../components/contents/dinamica01/designSprint/quinto';
+import wh from '../components/contents/dinamica01/pre-rastreabilidade/5w2h';
+import Argumentacoes from '../components/contents/dinamica01/pre-rastreabilidade/argumentacoes';
+import Richpictures from '../components/contents/dinamica01/pre-rastreabilidade/richpictures';
+import Prototipo from '../components/contents/dinamica01/elicitacao/prototipo';
+import AnaliseProtocolo from '../components/contents/dinamica01/elicitacao/analiseProtocolo';
+import Elicitacao from '../components/contents/dinamica01/elicitacao/elicitacao';
+import PreRastreabilidade from '../components/contents/dinamica01/pre-rastreabilidade/pre-rastreabilidade';
+import Priorizacao from '../components/contents/dinamica01/priorizacao/priorizacao';
+import Moscow from '../components/contents/dinamica01/priorizacao/moscow';
+import FirstThingsFirst from '../components/contents/dinamica01/priorizacao/firstThingsFirst';
+import Modelagem from '../components/contents/dinamica01/modelagem/modelagem';
+import AnaliseDiscurso from '../components/contents/dinamica01/elicitacao/analiseDiscurso';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -42,6 +50,14 @@ export default () => (
       <Route path="/designsprint/decidir" exact component={Terceiro} />
       <Route path="/designsprint/prototipar" exact component={Quarto} />
       <Route path="/designsprint/testar" exact component={Quinto} />
+      <Route path="/analiseprotocolo"  exact component={AnaliseProtocolo} />
+      <Route path="/elicitacao" exact component={Elicitacao} />
+      <Route path="/prerastreabilidade" exact component={PreRastreabilidade} />
+      <Route path="/priorizacao" exact component={Priorizacao} />
+      <Route path="/moscow" exact component={Moscow} />
+      <Route path="/ftf" exact component={FirstThingsFirst} />
+      <Route path="/modelagem" exact component={Modelagem} />
+      <Route path="/analisediscurso"  exact component={AnaliseDiscurso} />
     </Switch>
   </BrowserRouter>
 );
