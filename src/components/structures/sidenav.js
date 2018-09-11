@@ -38,7 +38,8 @@ class Sidenav extends Component {
         artefacts: [
           { name: "Metodologia e Definições", link: "/metodologiaDefinicoes" },
           { name: "Gerenciamento de Riscos", link: "/gerenciamentoRiscos" },
-          { name: "Monitoramento e Controle Riscos", link: "/monitoramentoRiscos" }
+          { name: "Monitoramento e Controle Riscos", link: "/monitoramentoRiscos" },
+          { name: "Documento de Visão", link: "/docVisao" }
         ]
       },
       { dynamic: "Dinâmica III", artefacts: [] },
