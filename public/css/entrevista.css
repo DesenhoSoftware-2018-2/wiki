@@ -1,0 +1,10 @@
+.lateral{ 
+    display: flex;
+    width: 150px !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh !important;
+    align-content: flex-start;
+    overflow: hidden;
+    position: fixed !important;
+}
