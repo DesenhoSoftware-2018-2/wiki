@@ -1,0 +1,1 @@
+> "Entrevista é a ação e efeito de entrevistar ou ser entrevistado. Trata-se de uma conversa entre duas uma ou mais pessoas com um fim determinado. Pode ter uma finalidade jornalística, para informar o público das respostas da pessoa entrevistada, ou tratar-se de uma conferência de duas ou mais pessoas para tratar ou resolver um negócio, por exemplo."
