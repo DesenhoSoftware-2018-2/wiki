@@ -5,7 +5,7 @@ Depois de um dia inteiro de compreensão do problema e de escolher um alvo para 
 
 **Horário de Término**: 22h00
 
-**Duração**: 03horas e 30mimutos
+**Duração**: 03horas e 05mimutos
 
 **Presentes**: Amanda, Bruno, Indiara, Isaque, João Vitor, Luciana, Martha.
 
@@ -22,30 +22,25 @@ Depois de um dia inteiro de compreensão do problema e de escolher um alvo para 
         - -Avaliação de CONF/Monitoria
         - -Busca
         - -Manter CONF/Monitoria
-    - - 
+    - -Todos criam uma lista de produtos ou serviços em busca de soluções inspiradoras advindas de grandes companhias. As fontes de inspiração podem vir de todos os lugares, não restringir apenas ao seu contexto
+    - -Os membros devem fazer apresentações de 3 minutos cada. 
+    - -O facilitador deve colocar as grandes ideias no quadro. Comece fazendo perguntas como: “Qual é a grande ideia aqui que pode ser útil?”
 
-
-3. **Mapa de Causa e Efeito** - 25minutos
+3. **Agrupar a Equipe** - 5minutos
 
 4. **Mapa do fluxo do usuário** - 30minutos
     - -Listar os usuários do lado esquerdo
     - -Objetivo final do lado direito
 
-5. **Mapa mental** - 30minutos
-
-6. **Como Poderíamos** - 01hora e 20minutos
-    - -Uma pessoa que nao tenha papel definido vai ser responsável por narrar do ponto de vista dela o que foi definido até o momento na DS, passando ponto a ponto e explicando com detalhes tudo que foi decidido.O restante do grupo irá levantar perguntas de como poderíamos realizar alguma coisa dentro do sistema.
-    - -Colocar "CP" nos post-it's
-    - -Além de falar das perguntas, ainda vai focar nos problemas que a aplicação procura resolver
-    - -As perguntas nao podem ser vagas demais nem restritas demais
-    - -Nao é pra pensar a nível de código, e sim a nível de funcionalidade
-    - -Narração e perguntas 
-    - -Organizar os post-its semelhantes e separar em tópicos 
-    - -Votação por pontos com as bolinhas
-    - -Fluxo principal do mapa do usuário
-    - -Grupo Miscelânia: o resto
+5. **O Esboço em Quatro Etapas** - 01hora e 30minutos
+   - -Anotações: A equipe caminha em silêncio pela sala e checa o quadro branco e demais artefatos, e fazem anotações. Essas anotações devem ser uma coletânea de maiores “sucessos” das últimas 24hrs de DS.
+  
+   - -Ideias: Preenchimento de uma folha de papel com ideias de desenhos, títulos experimentais, diagramas e bonecos de palito representando uma ação, etc. Essa folha não será compartilhada com a equipe, deve ser usada como uma folha de rascunho. 
+  
+   - -Crazy 8s: Cada membro recebeu uma folha A4 dobrada em 8. Depois cada um escolheu 1 ideia e em 8 minutos fez 8 esboços diferentes sobre essa mesma ideia até não conseguir mais fazer variações e então pegar outra ideia circulada anteriormente e continuar com ela. Fez isso até terminar os 8 espaços da folha A4 ou o tempo.
+  
+   - - Esboço da solução (Storyboard): Auto-explicativo, anônimo, uso de palavras e títulos marcantes é importante.
 
 
-7. **Definir o alvo** - 10minutos
-    - -Escolher público-alvo
-    - -Evento alvo dentro do mapa
+
+
