@@ -5,7 +5,7 @@ As discussões estruturadas do primeiro dia criaram um caminho para a semana do 
 
 **Horário de Término**: 22h30
 
-**Duração**: 3horas
+**Duração**: 03 horas
 
 **Presentes**: Amanda, Bruno, Calebe, Indiara, Isaque, João Vitor, Luciana, Martha, Vitor.
 
