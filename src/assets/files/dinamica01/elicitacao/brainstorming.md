@@ -10,12 +10,12 @@ A equipe utilizou o brainstorming para o levantamento de requisitos, artefatos a
 
 ###### Definição de artefatos a serem entregues
 ![definicao_artefato](brainstorming/definicaoArtefato.jpg)  
-Autor: Isaque Alves
+Autores: Toda equipe
 
 ###### Definição de metodologia
 ![definicao_metodologia](brainstorming/definicaoMetodologias.jpg)  
-Autor: Isaque Alves
+Autores: Toda equipe
 
 ###### Definição de tema a ser trabalhado na disciplina
 ![definicao_tema](brainstorming/definicaoTemas.jpg)  
-Autor: Toda a equipe
+Autores: Toda a equipe
