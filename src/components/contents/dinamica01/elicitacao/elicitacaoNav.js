@@ -8,6 +8,7 @@ class ElicitacaoNav extends Component {
       { pathname: "/elicitacao", link: "Bio" },
       { pathname: "/prototipo", link: "Prototipo" },
       { pathname: "/analiseprotocolo", link: "Análise de Protocolo"},
+      { pathname: "/brainstorming", link: "Brainstorming"},
       { pathname: "/analisediscurso", link: "Análise de Discurso"}
     ];
 

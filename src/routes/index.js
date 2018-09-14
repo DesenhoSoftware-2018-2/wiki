@@ -11,6 +11,7 @@ import GerenciamentoRiscos from '../components/contents/dinamica02/gerenciamento
 import MonitoramentoRiscos from '../components/contents/dinamica02/monitoramentoRiscos';
 import wh from '../components/contents/dinamica01/pre-rastreabilidade/5w2h';
 import Argumentacoes from '../components/contents/dinamica01/pre-rastreabilidade/argumentacoes';
+import Brainstorming from '../components/contents/dinamica01/elicitacao/brainstorming';
 import Richpictures from '../components/contents/dinamica01/pre-rastreabilidade/richpictures';
 import Prototipo from '../components/contents/dinamica01/elicitacao/prototipo';
 import AnaliseProtocolo from '../components/contents/dinamica01/elicitacao/analiseProtocolo';
@@ -31,6 +32,7 @@ export default () => (
       <Route path="/5w2h" exact component={wh} />
       <Route path="/argumentacoes" exact component={Argumentacoes} />
       <Route path="/richpictures" exact component={Richpictures} />
+      <Route path="/brainstorming" exact component={Brainstorming} />
       <Route path="/planoComunicacao" exact component={PlanoComunicacao} />
       <Route path="/guiaContribuicao" exact component={GuiaContribuicao} />
       <Route path="/reunioes" exact component={Reunioes} />
