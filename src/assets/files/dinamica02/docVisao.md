@@ -81,7 +81,7 @@ Diagrama de fishbone aqui!
 | **Prioridade**         | Alta                                                         |
 | **Preocupações**       | Qualidade do conteúdo dessa troca de conhecimento.            |
 | **Solução Atual**      | Cursos online ou pessoas próximas dispostas a compartilhar conhecimentos. |
-| **Soluções Propostas** | Banquinha, aplicação mobile que une pessoas que querem trocar conhecimentos.                             |
+| **Soluções Propostas** | Banquinha, aplicação mobile que une pessoas que querem trocar conhecimentos.                             |</br>
 </br>
 
 ##### 4.4.2 Praticidade
@@ -91,7 +91,8 @@ Diagrama de fishbone aqui!
 | **Prioridade**         | Alta                                                         |
 | **Preocupações**       | Que a troca de conhecimento seja dificultada.             |
 | **Solução Atual**      | Monitorias. |
-| **Soluções Propostas** | Banquinha, aplicação mobile com design de fácil uso.             | </br>
+| **Soluções Propostas** | Banquinha, aplicação mobile com design de fácil uso.                             |</br>
+</br>
 
 ##### 4.4.3 Acessibilidade
 
@@ -110,11 +111,11 @@ Diagrama de fishbone aqui!
 
 ## 5. Restrições
 
-  * As funcionalidade do produto necessitam que o usuário possua acesso à internet.
+  \-  As funcionalidade do produto necessitam que o usuário possua acesso à internet.
 
-  * Acesso a um smartphone com sistema operacional iOS ou android.
+  \-  Acesso a um smartphone com sistema operacional iOS ou android.
 
-  * Design minimalista, fácil acesso e uso por diferentes  faixa etárias.
+  \-  Design minimalista, fácil acesso e uso por diferentes  faixa etárias.
 
 
 ## 6. Referências
