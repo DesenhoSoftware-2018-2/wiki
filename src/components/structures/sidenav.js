@@ -28,18 +28,17 @@ class Sidenav extends Component {
       {
         dynamic: "Dinâmica I",
         artefacts: [
-          { name: "5w2h", link: "/5w2h" },
-          { name: "RichPicture", link: "/richpictures" },
-          { name: "Lexico", link: "/dinamica" },
-          { name: "Argumentações", link: "/argumentacoes" }
+          { name: "Pré-Rastreabilidade", link: "/prerastreabilidade" },
+          { name: "Elicitação", link: "/elicitacao" },
+          { name: "Priorização", link: "/priorizacao" },
+          { name: "Modelagem", link: "/modelagem" }
         ]
       },
       { dynamic: "Dinâmica II",
         artefacts: [
           { name: "Metodologia e Definições", link: "/metodologiaDefinicoes" },
           { name: "Gerenciamento de Riscos", link: "/gerenciamentoRiscos" },
-          { name: "Monitoramento e Controle Riscos", link: "/monitoramentoRiscos" },
-          { name: "Protótipo", link: "/prototipo" }
+          { name: "Monitoramento e Controle Riscos", link: "/monitoramentoRiscos" }
         ]
       },
       { dynamic: "Dinâmica III", artefacts: [] },
@@ -80,20 +79,20 @@ class Sidenav extends Component {
             <div className="divider" />
           </li>
           <ul className="collapsible">
-            {dynamics.map(dynamic => {
+            {dynamics.map((dynamic, i) => {
               return (
-                <li>
+                <li key={i}>
                   <div className="collapsible-header">
                     <div className="dinamica">{dynamic.dynamic}</div>
                     <div className="dinamica-button">
-                      <i class="material-icons">{this.state.button}</i>
+                      <i className="material-icons">{this.state.button}</i>
                     </div>
                   </div>
                   <div className="collapsible-body">
                     <ul>
-                      {dynamic.artefacts.map(artefact => {
+                      {dynamic.artefacts.map((artefact, i) => {
                         return (
-                          <li>
+                          <li key={i}>
                             <Link
                               to={artefact.link}
                               onClick={() => M.AutoInit()}
@@ -115,14 +114,14 @@ class Sidenav extends Component {
               <div className="collapsible-header">
                 <div className="dinamica">Extras</div>
                 <div className="dinamica-button">
-                  <i class="material-icons">{this.state.button}</i>
+                  <i className="material-icons">{this.state.button}</i>
                 </div>
               </div>
               <div className="collapsible-body">
                 <ul>
-                  {extras.map(extra => {
+                  {extras.map((extra, i) => {
                     return (
-                      <li>
+                      <li key={i}>
                         <Link to={extra.link} onClick={() => M.AutoInit()}>
                           <div className="artifact">{extra.name}</div>
                         </Link>
@@ -134,7 +133,7 @@ class Sidenav extends Component {
             </li>
           </ul>
         </ul>
-        <a data-target="slide-out" className="sidenav-trigger sidenav-teste">
+        <a data-target="slide-out" className="sidenav-trigger sidenav-teste pulse waves-effect">
           <i className="material-icons small">menu</i>
         </a>
       </div>

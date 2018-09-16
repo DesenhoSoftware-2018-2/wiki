@@ -10,3 +10,20 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+strong{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+h1 {
+    font-weight: bold;
+    color: #282e34;
+    text-shadow: 2px 2px #cdcfd1;
+    border-bottom: 1px #282e34 solid;
+    margin-bottom: 1em;
+}
+
+h3, h4, h5, h6 {
+    color: #282e34;
+    font-weight: bold;
+}
