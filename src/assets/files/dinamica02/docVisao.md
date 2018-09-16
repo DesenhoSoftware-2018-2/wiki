@@ -48,10 +48,43 @@ Diagrama de fishbone aqui!
 
 ### 4.1 Perfis das Partes Interessadas
 
-### 4.2 Perfis do Usuário
-Os usuários serão em sua maioria da comunidade acadêmica
+| Nome            | Descrição                                        | Responsabilidade                                 |
+| --------------- | ------------------------------------------------ | ------------------------------------------------ |
+| Milene Serrano  | Orientadora e avaliadora do projeto e do produto | Acompanhar e supervisionar o projeto e o produto |
+|                 | Monitor                                          | Acompanha e auxilia a equipe                     |
+| Amanda Muniz    | Membro da equipe                                 | Gerir, desenvolver e manter o projeto            |
+| Bruno Oliveira  | Membro da equipe                                 | Gerir, desenvolver e manter o projeto            |
+| Calebe Rios     | Membro da equipe                                 | Gerir, desenvolver e manter o projeto            |
+| Indiara Duarte  | Membro da equipe                                 | Gerir, desenvolver e manter o projeto            |
+| Isaque Alves    | Membro da equipe                                 | Gerir, desenvolver e manter o projeto            |
+| João Vitor      | Membro da equipe                                 | Gerir, desenvolver e manter o projeto            |
+| Luciana Ribeiro | Membro da equipe                                 | Gerir, desenvolver e manter o projeto            |
+| Martha Dantas   | Membro da equipe                                 | Gerir, desenvolver e manter o projeto            |
+| Vitor Cardoso   | Membro da equipe                                 | Gerir, desenvolver e manter o projeto            |
 
-### 4.3 Alternativas e Concorrência
+### 4.2 Perfis do Usuário
+
+| Nome      | Descrição e responsabilidades                                |
+| --------- | ------------------------------------------------------------ |
+| Mentor    | Usuário capaz de criar conferências e monitorias para que sejam anunciadas em suas respectivas listas |
+| Mentorado | Usuário capaz de acessar uma lista de conferências ou monitorias e participar daquela que lhe interessa |
+
+### 4.3 Ambiente do Usuário
+<p align="justify">&emsp;O software terá como ambiente um aplicativo, que poderá ser acessado por smartphones que possuam acesso a internet  e será compatível com Android e iOS. O ambiente tem integração com o Google e com o Facebook, de forma que exista mais de uma forma de login além do cadastro tradicional feito pelo aplicativo.</p>
+
+### 4.4 Principais Necessidades dos Usuários ou dos Envolvidos
+
+| Necessidade        | Troca conhecimentos de maneira prática, sem custo ou de custo acessível. |
+| ------------------ | ------------------------------------------------------------ |
+| **Prioridade**         | Alta                                                         |
+| **Preocupações**       | Qualidade do conteúdo dessa troca de conhecimento.           |
+| **Solução Atual**      | Cursos online ou pessoas próximas dispostas a compartilhar conhecimentos. |
+| **Soluções Propostas** | Branquinha, aplicação mobile de fácil utilização.            |
+
+### 4.5 Alternativas e Concorrências
+
+#### 4.5.1 Bliive
+<p align="justify">&emsp;Criado por uma brasileira, o  Bliive já possui 60 mil usuários em 100 países. Ele consiste em um site onde seus usuários usam seu tempo livre para ensinar os assuntos em que possuem experiência, e aprender novos temas pelos quais se interessam. Uma pessoa que quer aprender alemão, por exemplo, pode pegar uma aula com alguém que saiba o idioma se tiver ensinado outra pelo mesmo período de tempo. Assim, cada minuto da duração da troca de conhecimentos é usado como moeda de troca.</p>
 
 ## 5. Restrições
 
