@@ -6,7 +6,7 @@
 <p align="justify">&emsp;Além dessas descrições expostas, serão demostradas diagramas que evidenciem o funcionamento e características específicas do sistema que permitirão aos desenvolvedores um maior fluxo de produtividade.</p>
 
 ### 1.2 Escopo
-<p align="justify">&emsp;O documento de visão tem como objetivo informar aos envolvidos a problematização a ser resolvida e as funcionalidades do produto que serão atendidas pelo projeto banquinha. Tendo em vista que este documento será atualizado durante a produção do sistema.</p>
+<p align="justify">&emsp;O documento de visão tem como objetivo informar aos envolvidos a problemática que  o projeto banquinha busca solucionar, com informações pertinentes a respeito dos problemas e das necessidades dos envolvidos. Este documento traz também informações sobre a proposta de solução que o produto trará.  Sempre tendo em vista que este documento será atualizado durante a produção do sistema.</p>
 
 ### 1.3 Visão geral do documento
 <p align="justify">&emsp;O conteúdo deste documento está organizado de forma a fornecer: uma visão dos envolvidos no projeto; as necessidades enfrentadas; os benefícios desejados; e as funcionalidades do sistema face às suas características desenvolvidas para atender a estes benefícios. Também são apresentados aqui requisitos importantes para o produto final.</p>
@@ -74,12 +74,34 @@ Diagrama de fishbone aqui!
 
 ### 4.4 Principais Necessidades dos Usuários ou dos Envolvidos
 
-| Necessidade        | Troca conhecimentos de maneira prática, sem custo ou de custo acessível. |
+##### 4.4.1 Conhecimento
+
+| Necessidade        | Troca de conhecimentos. |
 | ------------------ | ------------------------------------------------------------ |
 | **Prioridade**         | Alta                                                         |
-| **Preocupações**       | Qualidade do conteúdo dessa troca de conhecimento.           |
+| **Preocupações**       | Qualidade do conteúdo dessa troca de conhecimento.            |
 | **Solução Atual**      | Cursos online ou pessoas próximas dispostas a compartilhar conhecimentos. |
-| **Soluções Propostas** | Branquinha, aplicação mobile de fácil utilização.            |
+| **Soluções Propostas** | Banquinha, aplicação mobile que une pessoas que querem trocar conhecimentos.                             |
+</br>
+
+##### 4.4.2 Praticidade
+
+| Necessidade        | Troca de conhecimento de maneira prática. |
+| ------------------ | ------------------------------------------------------------ |
+| **Prioridade**         | Alta                                                         |
+| **Preocupações**       | Que a troca de conhecimento seja dificultada.             |
+| **Solução Atual**      | Monitorias. |
+| **Soluções Propostas** | Banquinha, aplicação mobile com design de fácil uso.             | </br>
+
+##### 4.4.3 Acessibilidade
+
+| Necessidade        | Troca conhecimentos sem custo ou de custo acessível. |
+| ------------------ | ------------------------------------------------------------ |
+| **Prioridade**         | Alta                                                         |
+| **Preocupações**       | Que o custo seja muito caro para os envolvidos.              |
+| **Solução Atual**      | Compartilhamento de contas em sites que oferecem cursos online.  |
+| **Soluções Propostas** | Banquinha, aplicação mobile que oferece gratuitamente uma forma de trocar conhecimento. Além de incentivar que essa troca seja feita sem custo ou com custo acessível através de técnicas de gamificação.                             |
+
 
 ### 4.5 Alternativas e Concorrências
 
@@ -88,4 +110,18 @@ Diagrama de fishbone aqui!
 
 ## 5. Restrições
 
+  * As funcionalidade do produto necessitam que o usuário possua acesso à internet.
+
+  * Acesso a um smartphone com sistema operacional iOS ou android.
+
+  * Design minimalista, fácil acesso e uso por diferentes  faixa etárias.
+
+
 ## 6. Referências
+
+  \[1] Smith, Brett; A quick guide to GPLv3; Disponível em: https://www.gnu.org/licenses/quick-guide-gplv3.html; Acesso em 14 de setembro de 2018.
+
+  \[2] Conheça a Bliive, rede social de troca de conhecimento. Disponível em: https://exame.abril.com.br/carreira/conheca-a-bliive-rede-social-de-troca-de-conhecimento/; Acesso em 14 de setembro de 2018.
+
+  \[3] A Estrutura de Tópicos do Documento de Visão. Disponível em:
+  https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html; Acessado em 15 de setembro de 2018.
