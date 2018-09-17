@@ -19,9 +19,9 @@ Banquinha, é um sistema direcionado para a comunidade, estudantes, professores,
 ### 2.2 Instrução do problema:
 Atualmente, existe uma necessidade de integrar mais a comunidade acadêmica visando a disseminação do conhecimento.  
 
-|**O problema da**|Desigualdade no acesso a conhecimentos específicos|
-|:----:||
-|**Afeta**|Comunidade acadêmica|
+| O problema da | Desigualdade no acesso a conhecimentos específicos |
+|----|------|
+| **Afeta** | Comunidade acadêmica |
 |**Cujo impacto é**|Monopolização do conhecimento em um número reduzido de pessoas|
 |**Uma solução boa seria**|Um aplicativo no qual a comunidade acadêmica possa ter ver e/ou criar anúncios de monitorias e conferências.|
 
@@ -29,8 +29,8 @@ Atualmente, existe uma necessidade de integrar mais a comunidade acadêmica visa
 
 
 ### 2.3 Instrução de posição do produto:
-|Para|Os integrantes da comunidade acadêmica |
-|:-----------:||
+|      Para      |Os integrantes da comunidade acadêmica |
+|----------------------|--------------------------------|
 |Que|Queiram aplicar e/ou assistir monitorias e conferências de assuntos variados, de forma que possa aprender um novo conteúdo ou sanar dúvidas de temas conhecidos|
 |A Banquinha|É um aplicativo|
 |Que|Permite ao usuário o acesso a uma lista de anúncios sobre monitorias e conferências que estão ou vão acontecer naquele determinado tempo, para que o mesmo possa escolher a que melhor se encaixa em suas necessidades. E ainda, permite que este usuário possa também criar e anunciar suas próprias monitorias e conferências.|
