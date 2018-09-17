@@ -1,27 +1,41 @@
 # Documento de Visão
 ## 1. Introdução
-### 1.1 Propósito
-<p align="justify">&emsp;Este artigo apresenta as justificativas para o desenvolvimento da aplicação mobile banquinha, e visa auxiliar na compreensão do contexto em que esta ferramenta se inserirá. A partir deste propósito, a equipe procurará alcançar o desenvolvimento de uma solução tecnológica inovadora para auxiliar na comunicação e troca de conhecimento no contexto acadêmico.</p>
+### 1.1 Propósito:
+Este artigo apresenta as justificativas para o desenvolvimento da aplicação mobile banquinha, e visa auxiliar na compreensão do contexto em que esta ferramenta se inserirá. A partir deste propósito, a equipe procurará alcançar o desenvolvimento de uma solução tecnológica inovadora para auxiliar na comunicação e troca de conhecimento no contexto acadêmico.  
+Além dessas descrições expostas, serão demonstradas diagramas que evidenciam o funcionamento e características específicas do sistema que permitirão aos desenvolvedores um maior fluxo de produtividade.
 
-<p align="justify">&emsp;Além dessas descrições expostas, serão demostradas diagramas que evidenciem o funcionamento e características específicas do sistema que permitirão aos desenvolvedores um maior fluxo de produtividade.</p>
 
-### 1.2 Escopo
-<p align="justify">&emsp;O documento de visão tem como objetivo informar aos envolvidos a problemática que  o projeto banquinha busca solucionar, com informações pertinentes a respeito dos problemas e das necessidades dos envolvidos. Este documento traz também informações sobre a proposta de solução que o produto trará.  Sempre tendo em vista que este documento será atualizado durante a produção do sistema.</p>
+### 1.2 Escopo:
+O documento de visão tem como objetivo informar aos envolvidos a problemática que  o projeto banquinha busca solucionar, com informações pertinentes a respeito dos problemas e das necessidades dos envolvidos. Este documento traz também informações sobre a proposta de solução que o produto trará.  Sempre tendo em vista que este documento será atualizado durante a produção do sistema.
 
-### 1.3 Visão geral do documento
-<p align="justify">&emsp;O conteúdo deste documento está organizado de forma a fornecer: uma visão dos envolvidos no projeto; as necessidades enfrentadas; os benefícios desejados; e as funcionalidades do sistema face às suas características desenvolvidas para atender a estes benefícios. Também são apresentados aqui requisitos importantes para o produto final.</p>
+### 1.3 Visão geral do documento:
+O conteúdo deste documento está organizado de forma a fornecer: uma visão dos envolvidos no projeto; as necessidades enfrentadas; os benefícios desejados; e as funcionalidades do sistema face às suas características desenvolvidas para atender a estes benefícios. Também são apresentados aqui requisitos importantes para o produto final.  
 
 ## 2. Posicionamento
-### 2.1 Oportunidade de negócio
-<p align="justify">&emsp;Banqinha, é um sistema direcionado para a comunidade, estudantes, professores, prestadores de serviços da universidade, entre outros profissionais da area acadêmica e a população de uma forma geral. A Banquinha, apresenta-se como um aplicativo de troca de conhecimento, auxilia os usuários a visualizar, participar e adminstrar monitorias e conferências, integradas em um único local. Os usuários interessados em disponibilizar monitorias e conferências podem realizar facilmente, enquanto os usuários interessados em novos conhecimentos com passos simples conseguem participar de conferências e monitorias.</p>
+### 2.1 Oportunidade de negócio:
+Banquinha, é um sistema direcionado para a comunidade, estudantes, professores, prestadores de serviços da universidade, entre outros profissionais da área acadêmica e a população de uma forma geral. A Banquinha, apresenta-se como um aplicativo de troca de conhecimento, auxilia os usuários a visualizar, participar e administrar monitorias e conferências, integradas em um único local. Os usuários interessados em disponibilizar monitorias e conferências podem realizar facilmente, enquanto os usuários interessados em novos conhecimentos com passos simples conseguem participar de conferências e monitorias.
 
-### 2.2 Instrução do problema
-Atualmente, existe uma necessidade de integrar mais a comunidade acadêmica visando a disseminação do conhecimento.
 
-Diagrama de fishbone aqui!
+### 2.2 Instrução do problema:
+Atualmente, existe uma necessidade de integrar mais a comunidade acadêmica visando a disseminação do conhecimento.  
 
-### 2.3 Instrução de posição do produto
-<p align="justify">&emsp;A banquinha fornecerá suporte ao usuário, com intuito de facilitar o controle e visualização de conferências e . O aplicativo terá as seguintes funcionalidades suplementares: solicitar a participação de conferências, solicitação de participação de monitorias, visualização de relatórios e gráficos, notificação entre usuários do sistema e entrar com a conta do Google e Facebook.</p>
+|**O problema da**|Desigualdade no acesso a conhecimentos específicos|
+|:----:||
+|**Afeta**|Comunidade acadêmica|
+|**Cujo impacto é**|Monopolização do conhecimento em um número reduzido de pessoas|
+|**Uma solução boa seria**|Um aplicativo no qual a comunidade acadêmica possa ter ver e/ou criar anúncios de monitorias e conferências.|
+
+
+
+
+### 2.3 Instrução de posição do produto:
+|Para|Os integrantes da comunidade acadêmica |
+|:-----------:||
+|Que|Queiram aplicar e/ou assistir monitorias e conferências de assuntos variados, de forma que possa aprender um novo conteúdo ou sanar dúvidas de temas conhecidos|
+|A Banquinha|É um aplicativo|
+|Que|Permite ao usuário o acesso a uma lista de anúncios sobre monitorias e conferências que estão ou vão acontecer naquele determinado tempo, para que o mesmo possa escolher a que melhor se encaixa em suas necessidades. E ainda, permite que este usuário possa também criar e anunciar suas próprias monitorias e conferências.|
+|Diferente dos|Meios convencionais de monitorias, onde as pessoas interessadas só possuem conhecimento das monitorias que vão acontecer se estiverem matriculadas na matéria correspondente|
+|Nosso produto|Tem como objetivo principal fornecer opções de monitorias e conferências sobre os mais diversos assuntos de forma que exista troca de conhecimento entre seus usuários.|
 
 ## 3. Visão Geral do Produto
 
