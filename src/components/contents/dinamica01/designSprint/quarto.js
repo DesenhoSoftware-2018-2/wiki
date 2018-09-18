@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import DesignSprintNavbar from './designsprintNavbar';
 import Markdown from '../../../structures/dynamicsComponents/markdown';
-import Prototipo from '../elicitacao/prototipo';
 import PrototipoImgs from '../elicitacao/prototipoImgs';
 
 class Quarto extends Component{
