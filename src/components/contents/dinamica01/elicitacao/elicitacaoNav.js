@@ -6,8 +6,10 @@ class ElicitacaoNav extends Component {
   render() {
     const artefatos = [
       { pathname: "/elicitacao", link: "Bio" },
+      { pathname: "/entrevistas", link: "Entrevistas" },
       { pathname: "/prototipo", link: "Prototipo" },
       { pathname: "/analiseprotocolo", link: "Análise de Protocolo"},
+      { pathname: "/brainstorming", link: "Brainstorming"},
       { pathname: "/analisediscurso", link: "Análise de Discurso"}
     ];
 

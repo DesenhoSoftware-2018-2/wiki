@@ -17,6 +17,7 @@ import Quarto from '../components/contents/dinamica01/designSprint/quarto';
 import Quinto from '../components/contents/dinamica01/designSprint/quinto';
 import wh from '../components/contents/dinamica01/pre-rastreabilidade/5w2h';
 import Argumentacoes from '../components/contents/dinamica01/pre-rastreabilidade/argumentacoes';
+import Brainstorming from '../components/contents/dinamica01/elicitacao/brainstorming';
 import Richpictures from '../components/contents/dinamica01/pre-rastreabilidade/richpictures';
 import Prototipo from '../components/contents/dinamica01/elicitacao/prototipo';
 import AnaliseProtocolo from '../components/contents/dinamica01/elicitacao/analiseProtocolo';
@@ -27,6 +28,8 @@ import Moscow from '../components/contents/dinamica01/priorizacao/moscow';
 import FirstThingsFirst from '../components/contents/dinamica01/priorizacao/firstThingsFirst';
 import Modelagem from '../components/contents/dinamica01/modelagem/modelagem';
 import AnaliseDiscurso from '../components/contents/dinamica01/elicitacao/analiseDiscurso';
+import Entrevistas from '../components/contents/dinamica01/elicitacao/entrevistas';
+
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -37,6 +40,7 @@ export default () => (
       <Route path="/5w2h" exact component={wh} />
       <Route path="/argumentacoes" exact component={Argumentacoes} />
       <Route path="/richpictures" exact component={Richpictures} />
+      <Route path="/brainstorming" exact component={Brainstorming} />
       <Route path="/planoComunicacao" exact component={PlanoComunicacao} />
       <Route path="/guiaContribuicao" exact component={GuiaContribuicao} />
       <Route path="/reunioes" exact component={Reunioes} />
@@ -58,6 +62,8 @@ export default () => (
       <Route path="/ftf" exact component={FirstThingsFirst} />
       <Route path="/modelagem" exact component={Modelagem} />
       <Route path="/analisediscurso"  exact component={AnaliseDiscurso} />
+      <Route path="/entrevistas"  exact component={Entrevistas} />
+
     </Switch>
   </BrowserRouter>
 );
