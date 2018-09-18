@@ -6,7 +6,7 @@ class DesignSprintNavbar extends Component {
   render() {
     const artefatos = [
         { pathname: "/designsprint", link: "Bio" },
-        { pathname: "/designsprint/entender", link: "Entender" },
+        { pathname: "/entender", link: "Entender" },
         { pathname: "/designsprint/esbocar", link: "Esboçar" },
         { pathname: "/designsprint/decidir", link: "Decidir" },
         { pathname: "/designsprint/prototipar", link: "Prototipar" },
