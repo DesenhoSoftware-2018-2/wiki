@@ -23,7 +23,7 @@ import FirstThingsFirst from '../components/contents/dinamica01/priorizacao/firs
 import Modelagem from '../components/contents/dinamica01/modelagem/modelagem';
 import AnaliseDiscurso from '../components/contents/dinamica01/elicitacao/analiseDiscurso';
 import Entrevistas from '../components/contents/dinamica01/elicitacao/entrevistas';
-
+import DocVisao from '../components/contents/dinamica02/docVisao';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -51,7 +51,7 @@ export default () => (
       <Route path="/modelagem" exact component={Modelagem} />
       <Route path="/analisediscurso"  exact component={AnaliseDiscurso} />
       <Route path="/entrevistas"  exact component={Entrevistas} />
-
+      <Route path="/docvisao"  exact component={DocVisao} />
     </Switch>
   </BrowserRouter>
 );
