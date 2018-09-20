@@ -42,7 +42,11 @@ class Sidenav extends Component {
           { name: "Documento de Visão", link: "/docVisao" }
         ]
       },
-      { dynamic: "Dinâmica III", artefacts: [] },
+      { dynamic: "Dinâmica III",
+        artefacts: [
+          { name: "NFR Framework", link: "/nfr" }
+        ]
+      },
       { dynamic: "Dinâmica IV", artefacts: [] },
       { dynamic: "Dinâmica V", artefacts: [] }
     ];
