@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import Dinamica02 from './dinamica02';
+import Dinamica02 from './dinamica03';
 import Markdown from '../../structures/dynamicsComponents/markdown';
 
-class GerenciamentoRiscos extends Component {
+class Nfr extends Component {
   render() {
     return (
       <div>
         <Dinamica02 />
         <div className="container">
-          <Markdown file="dinamica02/gerenciamentoRiscos" />
+          <Markdown file="dinamica03/nfr" />
         </div>
       </div>
     );
   }
-} export default GerenciamentoRiscos;
+} export default Nfr;
