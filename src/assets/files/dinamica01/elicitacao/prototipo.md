@@ -7,41 +7,4 @@
 
 Autores: Amanda Muniz, Bruno Oliveira, João Vitor
 
-##### Logo
-![logo](prototipo/logo.png)
 
-##### Login
-![login](prototipo/login.png)
-
-##### Home
-![home](prototipo/home.png)
-
-##### Criar Monitoria
-![monitoria](prototipo/criar_monitoria.png)
-
-##### Busca
-![busca](prototipo/busca.jpg)
-
-##### Feed Conferência
-![conferencia](prototipo/conferencia.png)
-
-##### Detalhamento da monitoria
-![monitoria](prototipo/monitoria.png)
-
-##### Match
-![match](prototipo/match.png)
-
-##### Chat
-![chat](prototipo/chat.png)
-
-##### Sidenav
-![sidenav](prototipo/sidenav.png)
-
-##### Perfil
-![perfil](prototipo/perfil.png)
-
-##### Relatório
-![relatorio](prototipo/relatorio.png)
-
-##### Avaliação
-![avaliacao](prototipo/avaliacao.png)

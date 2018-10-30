@@ -28,10 +28,10 @@ class Sidenav extends Component {
       {
         dynamic: "Dinâmica I",
         artefacts: [
+          { name: "Design Sprint", link: "/designsprint"},
           { name: "Pré-Rastreabilidade", link: "/prerastreabilidade" },
           { name: "Elicitação", link: "/elicitacao" },
-          { name: "Priorização", link: "/priorizacao" },
-          { name: "Modelagem", link: "/modelagem" }
+          { name: "Priorização", link: "/priorizacao" }
         ]
       },
       { dynamic: "Dinâmica II",

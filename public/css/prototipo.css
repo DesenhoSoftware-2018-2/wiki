@@ -1,0 +1,17 @@
+.custom {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-top: 2em;
+}
+
+.custom img {
+    display: flex;
+    max-width: 15em;
+    max-height: 30em;
+    padding: 1em 1em 3em 1em;
+}
+
+.custom h4 {
+    text-align: center;
+}

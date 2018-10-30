@@ -9,6 +9,12 @@ import Reunioes from '../components/contents/extras/reunioes';
 import MetodologiaDefinicoes from '../components/contents/dinamica02/metodologiaDefinicoes';
 import GerenciamentoRiscos from '../components/contents/dinamica02/gerenciamentoRiscos';
 import MonitoramentoRiscos from '../components/contents/dinamica02/monitoramentoRiscos';
+import DesignSprint from '../components/contents/dinamica01/designSprint/designsprint';
+import Primeiro from '../components/contents/dinamica01/designSprint/primeiro';
+import Segundo from '../components/contents/dinamica01/designSprint/segundo';
+import Terceiro from '../components/contents/dinamica01/designSprint/terceiro';
+import Quarto from '../components/contents/dinamica01/designSprint/quarto';
+import Quinto from '../components/contents/dinamica01/designSprint/quinto';
 import wh from '../components/contents/dinamica01/pre-rastreabilidade/5w2h';
 import Argumentacoes from '../components/contents/dinamica01/pre-rastreabilidade/argumentacoes';
 import Brainstorming from '../components/contents/dinamica01/elicitacao/brainstorming';
@@ -43,6 +49,12 @@ export default () => (
       <Route path="/metodologiaDefinicoes" exact component={MetodologiaDefinicoes} />
       <Route path="/gerenciamentoRiscos" exact component={GerenciamentoRiscos} />
       <Route path="/monitoramentoRiscos" exact component={MonitoramentoRiscos} />
+      <Route path="/designsprint" exact component={DesignSprint} />
+      <Route path="/entender" exact component={Primeiro} />
+      <Route path="/esbocar" exact component={Segundo} />
+      <Route path="/decidir" exact component={Terceiro} />
+      <Route path="/prototipar" exact component={Quarto} />
+      <Route path="/testar" exact component={Quinto} />
       <Route path="/analiseprotocolo"  exact component={AnaliseProtocolo} />
       <Route path="/elicitacao" exact component={Elicitacao} />
       <Route path="/prerastreabilidade" exact component={PreRastreabilidade} />
