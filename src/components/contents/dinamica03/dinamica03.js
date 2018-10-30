@@ -5,8 +5,8 @@ import Sidenav from "../../structures/sidenav";
 class Dinamica03 extends Component {
   render() {
     const artefatos = [
-      { pathname: "/nfr", link: "NFR Framework" }
-
+      { pathname: "/nfr", link: "NFR Framework" },
+      { pathname: "/istar", link: "iStar" }
     ];
 
     return (

@@ -31,6 +31,7 @@ import AnaliseDiscurso from '../components/contents/dinamica01/elicitacao/analis
 import Entrevistas from '../components/contents/dinamica01/elicitacao/entrevistas';
 import DocVisao from '../components/contents/dinamica02/docVisao';
 import Nfr from '../components/contents/dinamica03/nfr';
+import iStar from '../components/contents/dinamica03/iStar';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -66,6 +67,7 @@ export default () => (
       <Route path="/entrevistas"  exact component={Entrevistas} />
       <Route path="/docvisao"  exact component={DocVisao} />
       <Route path="/nfr"  exact component={Nfr} />
+      <Route path="/istar" exact component={iStar} />
     </Switch>
   </BrowserRouter>
 );
