@@ -51,10 +51,10 @@ export default () => (
       <Route path="/monitoramentoRiscos" exact component={MonitoramentoRiscos} />
       <Route path="/designsprint" exact component={DesignSprint} />
       <Route path="/entender" exact component={Primeiro} />
-      <Route path="/designsprint/esbocar" exact component={Segundo} />
-      <Route path="/designsprint/decidir" exact component={Terceiro} />
-      <Route path="/designsprint/prototipar" exact component={Quarto} />
-      <Route path="/designsprint/testar" exact component={Quinto} />
+      <Route path="/esbocar" exact component={Segundo} />
+      <Route path="/decidir" exact component={Terceiro} />
+      <Route path="/prototipar" exact component={Quarto} />
+      <Route path="/testar" exact component={Quinto} />
       <Route path="/analiseprotocolo"  exact component={AnaliseProtocolo} />
       <Route path="/elicitacao" exact component={Elicitacao} />
       <Route path="/prerastreabilidade" exact component={PreRastreabilidade} />

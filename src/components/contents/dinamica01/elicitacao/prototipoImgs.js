@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import ReactFancyBox from 'react-fancybox'
+import 'react-fancybox/lib/fancybox.css'
+
 
 const logo = require("../../../../assets/imgs/prototipo/logo.png");
 const login = require("../../../../assets/imgs/prototipo/login.png");
@@ -18,58 +21,58 @@ class PrototipoImgs extends Component{
 
     render(){
         return(
-            <div className="custom">
+            <div className="designPhotos">
                 <div>
                     <h4>Logo</h4>
-                    <img src={logo} alt="logo"/>
+                    <ReactFancyBox thumbnail={logo} image={logo}/>
                 </div>
                 <div>
                     <h4>Login</h4>   
-                    <img src={login} alt="login"/>
+                    <ReactFancyBox thumbnail={login} image={login}/>
                 </div>
                 <div>
                     <h4>Home</h4>
-                    <img src={home} alt="home"/>
+                    <ReactFancyBox thumbnail={home} image={home}/>
                 </div>
                 <div>
                     <h4>Criar Monitoria</h4> 
-                    <img src={criar_monitoria} alt="criar monitoria"/>
+                    <ReactFancyBox thumbnail={criar_monitoria} image={criar_monitoria}/>
                 </div>
                 <div>
                     <h4>Busca</h4>
-                    <img src={busca} alt="busca"/>
+                    <ReactFancyBox thumbnail={busca} image={busca}/>
                 </div>
                 <div>
                     <h4>Conferência</h4>
-                    <img src={conferencia} alt="conferencia"/>
+                    <ReactFancyBox thumbnail={conferencia} image={conferencia}/>
                 </div>
                 <div>
                      <h4>Monitoria</h4>
-                    <img src={monitoria} alt="monitoria"/>
+                     <ReactFancyBox thumbnail={monitoria} image={monitoria}/>
                 </div>
                 <div>
                      <h4>Match</h4>
-                    <img src={match} alt="match"/>
+                     <ReactFancyBox thumbnail={match} image={match}/>
                 </div>
                 <div>
                     <h4>Chat</h4>
-                    <img src={chat} alt="chat"/>
+                    <ReactFancyBox thumbnail={chat} image={chat}/>
                 </div>
                 <div>    
                     <h4>Sidenav</h4>
-                    <img src={sidenav} alt="sidenav"/>
+                    <ReactFancyBox thumbnail={sidenav} image={sidenav}/>
                 </div>
                 <div>
                     <h4>Perfil</h4>
-                    <img src={perfil} alt="perfil"/>
+                    <ReactFancyBox thumbnail={perfil} image={perfil}/>
                 </div>
                 <div>
                     <h4>Relatório</h4>
-                    <img src={relatorio} alt="relatório"/>
+                    <ReactFancyBox thumbnail={relatorio} image={relatorio}/>
                 </div>
                 <div>
                     <h4>Avaliação</h4>
-                    <img src={avaliacao} alt="avaliacao"/>
+                    <ReactFancyBox thumbnail={avaliacao} image={avaliacao}/>
                 </div>
             </div>
         );

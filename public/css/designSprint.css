@@ -7,9 +7,13 @@
  
  .designPhotos img {
      display: flex;
-     max-width: 25em;
+     /* max-width: 25em;
      max-height: 25em;
-     padding: 1em 1em 3em 1em;
+     padding: 1em 1em 3em 1em; */
+ }
+
+ .designPhotos img:hover{
+    cursor: pointer;
  }
 
  .designPhotos h5 {
@@ -30,4 +34,20 @@
     max-height: 10em;
     padding: 1em 1em 0.5em 0.5em;
 }
+
+.react-fancybox .thumbnail img {
+    max-width: 300px !important;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+
+  .react-fancybox .thumbnail img:hover{
+    opacity: 1;
+  }
  
