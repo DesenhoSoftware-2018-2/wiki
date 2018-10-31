@@ -32,6 +32,7 @@ import Entrevistas from '../components/contents/dinamica01/elicitacao/entrevista
 import DocVisao from '../components/contents/dinamica02/docVisao';
 import Nfr from '../components/contents/dinamica03/nfr';
 import Lexicos from '../components/contents/dinamica01/pre-rastreabilidade/lexicos';
+import Questionario from '../components/contents/dinamica01/elicitacao/questionario';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -68,6 +69,7 @@ export default () => (
       <Route path="/docvisao"  exact component={DocVisao} />
       <Route path="/nfr"  exact component={Nfr} />
       <Route path="/lexicos" exact component={Lexicos} />
+      <Route path="/questionario" exact component={Questionario} />
     </Switch>
   </BrowserRouter>
 );
