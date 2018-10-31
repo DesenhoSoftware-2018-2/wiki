@@ -1,3 +1,8 @@
+# Lexicos
+
+Aqui se encontram as definições detalhadas de alguns termos relacionados ao domínio do projeto Banquinha.  
+
+#### Banquinha  
 | Nome | Banquinha |
 |--|--|
 | **Sinônimos** |  |
@@ -5,6 +10,7 @@
 | **Impacto** | -  Pessoas trocam figurinhas numa banquinha.<br/> -  Usuários usam o aplicativo Banquinha para buscar troca de conhecimentos.|
 | **Classificação** | Objeto |
 
+#### Match  
 | Nome | Match |
 |--|--|
 | **Sinônimos** | Combinação |
@@ -12,13 +18,16 @@
 | **Impacto** | Um Match ocorre quando um usuário demonstra interesse em outro usuário que já manifestou interesse por ele. |
 | **Classificação** | Objeto, Ação |
 
+
+#### Conf
 | Nome | Conf |
 |--|--|
-| **Sinônimos** |  |
+| **Sinônimos** | Conferência |
 | **Noção** | Forma abreviada do termo "conferência", que representa o encontro de um grupo de indivíduos com um Mentor para troca de conhecimento |
 | **Impacto** | Um usuário da aplicação Banquinha manifesta o desejo de participar de um conf para poder conhecer o que será apresentado pelo mentor. |
 | **Classificação** | Objeto |
 
+#### Recompensa  
 | Nome | Recompensa |
 |--|--|
 | **Sinônimos** | Gratificação, Retribuição |
@@ -26,6 +35,7 @@
 | **Impacto** | Usuários podem definir recompensas para retribuir os conhecimentos obtidos em uma monitoria ou conf. |
 | **Classificação** | Objeto |
 
+#### Mentor  
 | Nome | Mentor |
 |--|--|
 | **Sinônimos** | Monitor |
@@ -33,6 +43,7 @@
 | **Impacto** | - Um Mentor ensina um mentorado que soliciou ajuda por meio de uma monitoria.<br/> - Um Mentor é avaliado pelos mentorados após um conf, para que seu desempenho possa ser conhecido. |
 | **Classificação** | Sujeito |
 
+#### Mentorado  
 | Nome | Mentorado |
 |--|--|
 | **Sinônimos** |  |
@@ -40,6 +51,7 @@
 | **Impacto** | Um mentorado solicita uma monitoria sobre algum assunto que deseja conhecer melhor. |
 | **Classificação** | Sujeito |
 
+#### Avaliação  
 | Nome | Avaliação |
 |--|--|
 | **Sinônimos** | Qualificação, Classificação |
@@ -47,7 +59,7 @@
 | **Impacto** | Um usuário faz uma avaliação para classificar uma monitoria ou conf como boa, ruim ou intermediária. |
 | **Classificação** | Ação |
 
-
+#### Monitoria  
 | Nome | Monitoria |
 |--|--|
 | **Sinônimos** |  |
