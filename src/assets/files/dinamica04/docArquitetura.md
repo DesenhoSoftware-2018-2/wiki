@@ -12,7 +12,7 @@ Este documento de Arquitetura de Software se aplica ao software Banquinha desenv
 ### 2. Representação Arquitetural
 #### 2.1. Diagrama de relações
 
-![diagrama_relacoes_image](dinamica04/)
+![diagrama_relacoes_image](dinamica04/relacionamento.png)
 
 #### 2.2 Diagrama de classes
 
