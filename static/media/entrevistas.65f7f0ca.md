@@ -2,7 +2,7 @@
 
 ### Objetivo
 
-O objetivo do uso das entrevistas no nosso trabalho é para elicitar algumas inforções. A intenção é conhecer o público alvo e o informar se o impacto da aplicação será efetivo ou não. Além de recolher insumos para reconhecer o público alvo para que as técnicas de gamificação seja aplicada.
+O objetivo do uso das entrevistas no nosso trabalho é para elicitar algumas informações. A intenção é conhecer o público alvo e o informar se o impacto da aplicação será efetivo ou não. Além de recolher insumos para reconhecer o público alvo para que as técnicas de gamificação seja aplicada.
 
 ### Conclusão
 
