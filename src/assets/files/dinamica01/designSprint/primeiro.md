@@ -44,3 +44,9 @@ As discussões estruturadas do primeiro dia criaram um caminho para a semana do 
     - -Escolher público-alvo
     - -Evento alvo dentro do mapa
 
+<br />
+
+## Artefatos Gerados
+
+<br />
+
