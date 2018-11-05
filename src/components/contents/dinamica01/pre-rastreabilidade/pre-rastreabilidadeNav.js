@@ -8,7 +8,8 @@ class PreRastreabilidadeNav extends Component {
       { pathname: "/prerastreabilidade", link: "Bio" },
       { pathname: "/5w2h", link: "5W2H" },
       { pathname: "/richpictures", link: "Rich Pictures"},
-      { pathname: "/argumentacoes", link: "Argumentações"}
+      { pathname: "/argumentacoes", link: "Argumentações"},
+      { pathname: "/lexicos", link: "Lexicos"}
     ];
 
     return (
@@ -21,4 +22,3 @@ class PreRastreabilidadeNav extends Component {
 }
 
 export default PreRastreabilidadeNav;
- 
