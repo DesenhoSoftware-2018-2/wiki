@@ -43,4 +43,7 @@ O sistema deverá suportar o crescimento do número de usuários, pois tende a m
 
 #### Diagrama de Pacotes
 
+**Frontend**  
+![diagrama_pacotes_front_image](dinamica04/pacotes_front.png)
+
 #### Visão de dados
