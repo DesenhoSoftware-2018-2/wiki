@@ -35,6 +35,7 @@ import iStar from '../components/contents/dinamica03/iStar';
 import Lexicos from '../components/contents/dinamica01/pre-rastreabilidade/lexicos';
 import Questionario from '../components/contents/dinamica01/elicitacao/questionario';
 import Storytelling from '../components/contents/dinamica01/elicitacao/storytelling';
+import ModelagemProcesso from '../components/contents/dinamica02/modelagem_processo';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -74,6 +75,7 @@ export default () => (
       <Route path="/lexicos" exact component={Lexicos} />
       <Route path="/questionario" exact component={Questionario} />
       <Route path="/storytelling" exact component={Storytelling} />
+      <Route path="/modelagemProcesso" exact component={ModelagemProcesso} />
     </Switch>
   </BrowserRouter>
 );
