@@ -1,8 +1,3 @@
-# Modelagem do Processo
-
-![modelagem processo](dinamica02/modelagem_processo.png)
-
-Acesse a [imagem em tamanho maior]() .
 
 **Observação:** O subprocesso Gerenciar Mudança, representado na Modelagem do Processo indica, de acordo com o BPMN 2.0, que o subprocesso é um evento que pode ser ativado em qualquer momento do processo. Vide [BPMN 2.0](https://www.omg.org/spec/BPMN/2.0/).
 
@@ -105,4 +100,4 @@ O artefato que será alterado é atualizado.
 **Artefato de saída:** Artefato atualizado.
 
 
-**Autor:** Isaque Alves.
+**Autor:** Isaque Alves.  
