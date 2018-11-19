@@ -31,35 +31,3 @@ Versões
 
 
 ##### Aqui encontram-se todas as rich pictures produzidas durante esta dinâmica da disciplina.
-
-
-
-###### Cadastro do Usuário v1.0
-![richpicture_cadastro](richpictures/richpictureCadastroIsaque.jpg)  
-Autor: Isaque Alves
-
-###### Fluxo de Monitoria v1.0
-![richpicture_cadastro](richpictures/richpictureMonitoriaIsaque.jpg)  
-Autor: Isaque Alves
-
-###### Conceitual v1.0
-![richpicture conceitual](richpictures/richpictureConceitualAmanda.jpg)
-Autor: Amanda Muniz
-
-###### Conceitual 2 v1.0
-![richpicture conceitual_2](richpictures/richpictureConceitualVitor.jpg)  
-Autor: Vítor Cardoso
-
-###### Conceitual 3 v1.0
-![richpicture conceitual_3](richpictures/richpictureConceitualJoao.jpg)  
-Autor: João Vitor
-
-###### Conceitual 3 v2.0
-![richpicture conceitual_3V2](richpictures/richpictureConceitualV2Joao.jpg)  
-Autor: Joao Vitor
-
-###### Conceitual 4 v1.0
-![richpicture conceitual_4](richpictures/richpictureConceitualBruno.jpg)
-
-Autor: Bruno Dantas
-
