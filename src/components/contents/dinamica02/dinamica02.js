@@ -8,8 +8,8 @@ class Dinamica02 extends Component {
       { pathname: "/docVisao", link: "Documento de Visão" },
       { pathname: "/metodologiaDefinicoes", link: "Metodologia e Definições" },
       { pathname: "/gerenciamentoRiscos", link: "Plano de Gerenciamento de Riscos" },
-      { pathname: "/monitoramentoRiscos", link: "Monitoramento e Controle dos Riscos" }
-
+      { pathname: "/monitoramentoRiscos", link: "Monitoramento e Controle dos Riscos" },
+      { pathname: "/modelagemProcesso", link: "Modelagem do processo" }
     ];
 
     return (

@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     margin-top: 2em;
  }
- 
+
  .designPhotos img {
      display: flex;
      /* max-width: 25em;
@@ -36,7 +36,7 @@
 }
 
 .react-fancybox .thumbnail img {
-    max-width: 300px !important;
+    max-width: 1000px !important;
     border: none;
     color: black;
     padding: 16px 32px;
@@ -50,4 +50,3 @@
   .react-fancybox .thumbnail img:hover{
     opacity: 1;
   }
- 
