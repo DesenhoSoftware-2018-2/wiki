@@ -14,9 +14,8 @@ Este documento de Arquitetura de Software se aplica ao software Banquinha desenv
 
 ![diagrama_relacoes_image](dinamica04/relacionamento.png)
 
-#### 2.2 Diagrama de classes
 
-#### 2.3 Iteração react e API
+#### 2.2 Iteração react e API
 
 A aplicação web será desenvolvida utilizando a biblioteca JavaScript React.js. Essa biblioteca oferece componentização e reuso, com isso será reduzida a duplicação de código. Além disso, essa biblioteca é single page application, ou seja a interface interagem com o usuário dinamicamente reescrevendo a mesma página, sem carregar toda a página a medida que ela sofre alterações.  
 O React também tem boa performance porque mantém uma cópia do DOM (Document Object Model) em memória chamada Virtual-DOM. Quando um dado é alterado e é necessária uma alteração na view, o React verifica pelo Virtual-DOM quais partes devem ser alteradas. Dessa forma, evita a lentidão de acessar diretamente o DOM todo o tempo.  
@@ -39,11 +38,10 @@ O sistema deverá suportar o crescimento do número de usuários, pois tende a m
 - O código deve ser facilmente modificado e corrigido, para garantir uma boa manutenibilidade;
 
 ### 4 - Arquitetura dos Serviços e visão de Implementação
-#### Visão Geral
 
-#### Diagrama de Pacotes
+#### 4.1 Diagrama de Pacotes
 
 **Frontend**  
 ![diagrama_pacotes_front_image](dinamica04/pacotes_front.png)
 
-#### Visão de dados
+#### 4.2 Diagrama de classes
