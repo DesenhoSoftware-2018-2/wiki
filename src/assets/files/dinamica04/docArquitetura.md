@@ -41,7 +41,7 @@ O sistema deverá suportar o crescimento do número de usuários, pois tende a m
 
 #### 4.1 Diagrama de Pacotes
 
-**Frontend**  
-![diagrama_pacotes_front_image](dinamica04/pacotes_front.png)
+![diagrama_pacotes_front_image](dinamica04/pacotes_front.png)  
+![diagrama_pacotes_django_image](dinamica04/pacotes_django.png)
 
 #### 4.2 Diagrama de classes
