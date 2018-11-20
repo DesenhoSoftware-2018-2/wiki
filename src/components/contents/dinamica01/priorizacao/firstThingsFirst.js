@@ -7,9 +7,15 @@ import "materialize-css/dist/css/materialize.css";
 const ftfs = [
   {
     id:"0",
+    name: 'First Things First',
+    path: "dinamica01/priorizacao/firstThingsFirst/firstThingsFirst",
+  },
+  {
+    id:"1",
     name: 'FTF da Equipe',
     path: "dinamica01/priorizacao/firstThingsFirst/firstThingsFirst",
-  }
+  },
+  
 ]
 
 class FirstThingsFirst extends Component {

@@ -1,1 +1,0 @@
-### First Things First da Equipe
