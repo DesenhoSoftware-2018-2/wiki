@@ -37,6 +37,7 @@ import Questionario from '../components/contents/dinamica01/elicitacao/questiona
 import Storytelling from '../components/contents/dinamica01/elicitacao/storytelling';
 import ModelagemProcesso from '../components/contents/dinamica02/modelagem_processo';
 import DocArquitetura from '../components/contents/dinamica04/docArquitetura';
+import PadroesProjeto from '../components/contents/dinamica04/padroesProjeto';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -78,6 +79,7 @@ export default () => (
       <Route path="/storytelling" exact component={Storytelling} />
       <Route path="/modelagemProcesso" exact component={ModelagemProcesso} />
       <Route path="/docArquitetura"  exact component={DocArquitetura} />
+      <Route path="/padroesProjeto"  exact component={PadroesProjeto} />
     </Switch>
   </BrowserRouter>
 );

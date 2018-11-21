@@ -51,7 +51,8 @@ class Sidenav extends Component {
       },
       { dynamic: "Dinâmica IV",
         artefacts: [
-            { name: "Documento de Arquitetura", link: "/docArquitetura" }
+            { name: "Documento de Arquitetura", link: "/docArquitetura" },
+            { name: "Padrões de Projeto", link: "/padroesProjeto" }
         ]
       },
       { dynamic: "Dinâmica V", artefacts: [] }
