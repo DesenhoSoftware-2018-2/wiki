@@ -7,7 +7,7 @@ import "materialize-css/dist/css/materialize.css";
 const ftfs = [
   {
     id:"0",
-    name: 'First Things First',
+    name: 'FTF',
     path: "dinamica01/priorizacao/firstThingsFirst/firstThingsFirst",
   },
   {
@@ -26,37 +26,37 @@ const ftfs = [
     path: "dinamica01/priorizacao/firstThingsFirst/ftfBruno",
   },
   {
-    id:"3",
+    id:"4",
     name: 'Calebe',
     path: "dinamica01/priorizacao/firstThingsFirst/ftfCalebe",
   },
   {
-    id:"4",
+    id:"5",
     name: 'Indiara',
     path: "dinamica01/priorizacao/firstThingsFirst/ftfIndiara",
   },
   {
-    id:"5",
+    id:"6",
     name: 'Isaque',
     path: "dinamica01/priorizacao/firstThingsFirst/ftfIsaque",
   },
   {
-    id:"6",
+    id:"7",
     name: 'João',
     path: "dinamica01/priorizacao/firstThingsFirst/ftfJoao",
   },
   {
-    id:"7",
+    id:"8",
     name: 'Luciana',
     path: "dinamica01/priorizacao/firstThingsFirst/ftfLuciana",
   },
   {
-    id:"8",
+    id:"9",
     name: 'Martha',
     path: "dinamica01/priorizacao/firstThingsFirst/ftfMartha",
   },
   {
-    id:"9",
+    id:"10",
     name: 'Vitor',
     path: "dinamica01/priorizacao/firstThingsFirst/ftfVitor",
   },
@@ -78,7 +78,7 @@ class FirstThingsFirst extends Component {
           <h1>First Thing First</h1>
            <br />
           <div className="row">
-          <div className="col s3">
+          <div className="col s2">
           <ul className="tabs lateral">
 
                 {
@@ -90,7 +90,7 @@ class FirstThingsFirst extends Component {
                 }
             </ul>
                </div>
-            <div className="col s9">
+            <div className="col s10">
 
                { 
                   ftfs.map((ftf) => {

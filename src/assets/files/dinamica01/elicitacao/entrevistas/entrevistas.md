@@ -7,4 +7,3 @@ O objetivo do uso das entrevistas no nosso trabalho é para elicitar algumas inf
 ### Conclusão
 
 Após entrevistar algumas pessoas, percebe se que a aplicação será bem aceita pelo público alvo, que pela definição do escopo será a comunidade da FGA(Faculdade do Gama).
-
