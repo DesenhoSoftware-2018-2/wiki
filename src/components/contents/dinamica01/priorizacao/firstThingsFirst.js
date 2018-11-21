@@ -13,9 +13,53 @@ const ftfs = [
   {
     id:"1",
     name: 'FTF da Equipe',
-    path: "dinamica01/priorizacao/firstThingsFirst/firstThingsFirst",
+    path: "dinamica01/priorizacao/firstThingsFirst/ftfEquipe",
   },
-  
+  {
+    id:"2",
+    name: 'Amanda',
+    path: "dinamica01/priorizacao/firstThingsFirst/ftfAmanda",
+  },
+  {
+    id:"3",
+    name: 'Bruno',
+    path: "dinamica01/priorizacao/firstThingsFirst/ftfBruno",
+  },
+  {
+    id:"3",
+    name: 'Calebe',
+    path: "dinamica01/priorizacao/firstThingsFirst/ftfCalebe",
+  },
+  {
+    id:"4",
+    name: 'Indiara',
+    path: "dinamica01/priorizacao/firstThingsFirst/ftfIndiara",
+  },
+  {
+    id:"5",
+    name: 'Isaque',
+    path: "dinamica01/priorizacao/firstThingsFirst/ftfIsaque",
+  },
+  {
+    id:"6",
+    name: 'João',
+    path: "dinamica01/priorizacao/firstThingsFirst/ftfJoao",
+  },
+  {
+    id:"7",
+    name: 'Luciana',
+    path: "dinamica01/priorizacao/firstThingsFirst/ftfLuciana",
+  },
+  {
+    id:"8",
+    name: 'Martha',
+    path: "dinamica01/priorizacao/firstThingsFirst/ftfMartha",
+  },
+  {
+    id:"9",
+    name: 'Vitor',
+    path: "dinamica01/priorizacao/firstThingsFirst/ftfVitor",
+  },
 ]
 
 class FirstThingsFirst extends Component {
