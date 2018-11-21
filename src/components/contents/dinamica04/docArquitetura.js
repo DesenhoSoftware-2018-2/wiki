@@ -7,6 +7,8 @@ import 'react-fancybox/lib/fancybox.css'
 const classev10 = require("../../../assets/imgs/dinamica04/classev10.png");
 const classev20 = require("../../../assets/imgs/dinamica04/classev20.png");
 const classev30 = require("../../../assets/imgs/dinamica04/classev30.png");
+const der = require("../../../assets/imgs/dinamica04/der.jpg");
+const logico = require("../../../assets/imgs/dinamica04/logico.jpg");
 
 class DocArquitetura extends Component {
   render() {
@@ -30,6 +32,17 @@ class DocArquitetura extends Component {
                <h5>Versão 3.0</h5>
                <ReactFancyBox thumbnail={classev30} image={classev30}/>
                <p>Autor: Isaque Alves</p>
+          </div>
+          <div>
+               <h2>Modelagem de dados</h2>
+               <h5>Diagrama Entidade Relacionamento</h5>
+               <ReactFancyBox thumbnail={der} image={der}/>
+               <p>Autor: Amanda Muniz, Isaque Alves</p>
+          </div>
+          <div>
+               <h5>Lógico</h5>
+               <ReactFancyBox thumbnail={logico} image={logico}/>
+               <p>Autor: Amanda Muniz, Isaque Alves</p>
           </div>
         </div>
         </div>
