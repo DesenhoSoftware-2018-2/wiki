@@ -5,13 +5,13 @@
   "homepage": "http://DesenhoSoftware-2018-2.github.io/wiki",
   "dependencies": {
     "materialize-css": "^1.0.0-rc.2",
+    "merge": ">=1.2.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-fancybox": "^0.2.3",
     "react-markdown": "^3.4.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "merge": ">=1.2.1"
+    "react-scripts": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
