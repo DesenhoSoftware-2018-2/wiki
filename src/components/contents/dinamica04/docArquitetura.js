@@ -19,6 +19,7 @@ class DocArquitetura extends Component {
         <div className="designPhotos">
           <Markdown file="dinamica04/docArquitetura" />
           <div>
+              <h4>Diagrama de Classe</h4>
                <h5>Versão 1.0</h5>
                <ReactFancyBox thumbnail={classev10} image={classev10}/>
                <p>Autor: Grupo</p>
@@ -34,7 +35,7 @@ class DocArquitetura extends Component {
                <p>Autor: Isaque Alves</p>
           </div>
           <div>
-               <h2>Modelagem de dados</h2>
+               <h4>Diagrama de Bancos de Dados</h4>
                <h5>Diagrama Entidade Relacionamento</h5>
                <ReactFancyBox thumbnail={der} image={der}/>
                <p>Autor: Amanda Muniz, Isaque Alves</p>

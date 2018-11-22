@@ -10,9 +10,8 @@ Este documento oferece uma visão geral arquitetural abrangente do sistema, usan
 Este documento de Arquitetura de Software se aplica ao software Banquinha desenvolvido pelos alunos da disciplina de Arquitetura e desenho de software, ministrada pela professora Milene Serrano.
 
 ### 2. Representação Arquitetural
-#### 2.1. Diagrama de relações
 
-![diagrama_relacoes_image](dinamica04/relacionamento.png)
+![arquitetura](dinamica04/relacionamento.png)
 
 
 #### 2.2 Iteração react e API
@@ -37,11 +36,10 @@ A arquitetura deve respeitar os seguintes requisitos não funcionais:
 O sistema deverá suportar o crescimento do número de usuários, pois tende a manter um grande número de usuários cadastrados;  
 - O código deve ser facilmente modificado e corrigido, para garantir uma boa manutenibilidade;
 
-### 4 - Arquitetura dos Serviços e visão de Implementação
+### 4 - Visão Lógica
 
 #### 4.1 Diagrama de Pacotes
 
 ![diagrama_pacotes_front_image](dinamica04/pacotes_front.png)  
 ![diagrama_pacotes_django_image](dinamica04/pacotes_django.png)
-
-#### 4.2 Diagrama de classes
+### 4 - Visão de Implementação
