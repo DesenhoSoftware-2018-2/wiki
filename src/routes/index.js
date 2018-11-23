@@ -38,6 +38,7 @@ import Storytelling from '../components/contents/dinamica01/elicitacao/storytell
 import ModelagemProcesso from '../components/contents/dinamica02/modelagem_processo';
 import DocArquitetura from '../components/contents/dinamica04/docArquitetura';
 import PadroesProjeto from '../components/contents/dinamica04/padroesProjeto';
+import SprintPlanning from '../components/contents/extras/sprintPlanning';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -80,6 +81,7 @@ export default () => (
       <Route path="/modelagemProcesso" exact component={ModelagemProcesso} />
       <Route path="/docArquitetura"  exact component={DocArquitetura} />
       <Route path="/padroesProjeto"  exact component={PadroesProjeto} />
+      <Route path="/sprintPlanning" exact component={SprintPlanning} />
     </Switch>
   </BrowserRouter>
 );

@@ -63,7 +63,8 @@ class Sidenav extends Component {
       { name: "Guia de Contribuição", link: "/guiaContribuicao" },
       { name: "Reuniões", link: "/reunioes" },
       { name: "Fotos", link: "/fotos" },
-      { name: "Referência Bibliográfica", link:"/referencia"}
+      { name: "Referência Bibliográfica", link:"/referencia"},
+      { name: "Sprints do Projeto", link:"/sprintPlanning"}
     ];
 
     return (
