@@ -17,7 +17,7 @@ class ModelagemProcesso extends Component {
           <h1>Modelagem de Processo</h1>
           <div className="modelagem-photo">
           <ReactFancyBox thumbnail={modelagemProcessoImage} image={modelagemProcessoImage}/>
-            <h4>É possível visualizar a imagem do processo <a href="https://drive.google.com/open?id=14fvoh9BOMa1FROG3TWlZCFxCgu5YDvH_">aqui</a> </h4>
+            <h6>É possível visualizar a imagem do processo <a href="https://drive.google.com/open?id=14fvoh9BOMa1FROG3TWlZCFxCgu5YDvH_">aqui</a> </h6>
           </div>
           <Markdown file="dinamica02/modelagem_processo" />
         </div>

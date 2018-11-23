@@ -51,7 +51,7 @@ class Home extends Component {
       },
       {
         img: "luciana.jpeg",
-        name: "Luciana",
+        name: "Luciana Ribeiro",
         git: "@lucianaribeiro",
         email: "albuquerqueluciana54@gmail.com"
       },
