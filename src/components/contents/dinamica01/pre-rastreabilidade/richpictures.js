@@ -3,6 +3,7 @@ import Markdown from '../../../structures/dynamicsComponents/markdown';
 import PreRastreabilidadeNav from "./pre-rastreabilidadeNav";
 import ReactFancyBox from 'react-fancybox'
 import 'react-fancybox/lib/fancybox.css'
+
 const cadastroIsaque = require("../../../../assets/imgs/richpictures/richpictureCadastroIsaque.jpg");
 const conceitualAmanda = require("../../../../assets/imgs/richpictures/richpictureConceitualAmanda.jpg");
 const conceitualBruno = require("../../../../assets/imgs/richpictures/richpictureConceitualBruno.jpg");
@@ -20,37 +21,37 @@ class Richpictures extends Component {
         <div className="designPhotos">
           <Markdown file="dinamica01/pre-rastreabilidade/richpictures" />
           <div>
-            <h1>Cadastro do Usuário v1.0</h1>
+            <h4>Cadastro do Usuário v1.0</h4>
             <ReactFancyBox thumbnail={cadastroIsaque} image={cadastroIsaque}/>
             <p>Autor: Isaque Alves</p>
           </div>
           <div>
-            <h1>Fluxo de Monitoria v1.0</h1>
+            <h4>Fluxo de Monitoria v1.0</h4>
             <ReactFancyBox thumbnail={monitoriaIsaque} image={monitoriaIsaque}/>
             <p>Autor: Isaque Alves</p>
           </div>
           <div>
-            <h1>Conceitual v1.0</h1>
+            <h4>Conceitual v1.0</h4>
             <ReactFancyBox thumbnail={conceitualAmanda} image={conceitualAmanda}/>
             <p>Autor: Amanda Muniz</p>
           </div>
           <div>
-            <h1>Conceitual 2 v1.0</h1>
+            <h4>Conceitual 2 v1.0</h4>
             <ReactFancyBox thumbnail={conceitualVitor} image={conceitualVitor}/>
             <p>Autor: Vitor Cardoso</p>
           </div>
           <div>
-            <h1>Conceitual 3 v1.0</h1>
+            <h4>Conceitual 3 v1.0</h4>
             <ReactFancyBox thumbnail={conceitualJoao} image={conceitualJoao}/>
             <p>Autor: João Vitor</p>
           </div>
           <div>
-            <h1>Conceitual 3 v2.0</h1>
+            <h4>Conceitual 3 v2.0</h4>
             <ReactFancyBox thumbnail={conceitualAtualizadoJoao} image={conceitualAtualizadoJoao}/>
             <p>Autor: João Vitor</p>
           </div>
           <div>
-            <h1>Conceitual 3 v2.0</h1>
+            <h4>Conceitual 3 v2.0</h4>
             <ReactFancyBox thumbnail={conceitualBruno} image={conceitualBruno}/>
             <p>Autor: Bruno Dantas</p>
           </div>

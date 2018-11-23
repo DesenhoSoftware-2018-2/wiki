@@ -29,5 +29,8 @@ Diferentes perspectivas de cada pessoa (funcionários, gerência);
 Visões conflitantes entre stakeholders.
 Versões
 
+<br />
 
-##### Aqui encontram-se todas as rich pictures produzidas durante esta dinâmica da disciplina.
+#### Aqui encontram-se todas as **rich pictures** produzidas durante esta dinâmica da disciplina.
+
+<br />
