@@ -9,6 +9,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
 strong{
@@ -23,7 +24,7 @@ h1 {
     margin-bottom: 1em;
 }
 
-h3, h4, h5, h6 {
+h3, h5, h6 {
     color: #282e34;
     font-weight: bold;
 }
