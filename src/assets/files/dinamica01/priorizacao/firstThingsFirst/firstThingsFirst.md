@@ -1,6 +1,6 @@
 ### First Things First
 
-> "O First Things First é um técnica de priorização de atividades. Nas atividades vinculadas ao produto de Softaware, o ftf é utilizado para priorizar o Product Backlog, assim como o MoSCoW. Porém os dados de prioridade são mais concretos, pois todos os envolvidos no desenvolvimento do software realiza seu próprio ftf. "
+> "O First Things First é um técnica de priorização de atividades. Nas atividades vinculadas ao produto de Software, o FTF (First Things First) é utilizado para priorizar o Product Backlog, assim como o MoSCoW. Porém os dados de prioridade são mais concretos, pois todos os envolvidos no desenvolvimento do software realiza seu próprio FTF. "
 
 ### Conceitos
 
