@@ -8,6 +8,7 @@ const classev10 = require("../../../assets/imgs/dinamica04/classev10.png");
 const classev20 = require("../../../assets/imgs/dinamica04/classev20.png");
 const classev30 = require("../../../assets/imgs/dinamica04/classev30.png");
 const classev40 = require("../../../assets/imgs/dinamica04/classev40.png");
+const classev50 = require("../../../assets/imgs/dinamica04/classev50.png");
 const der = require("../../../assets/imgs/dinamica04/der.jpg");
 const logico = require("../../../assets/imgs/dinamica04/logico.jpg");
 
@@ -41,8 +42,14 @@ class DocArquitetura extends Component {
           <div>
                <h5>Versão 4.0</h5>
                <ReactFancyBox thumbnail={classev40} image={classev40}/>
-               <a href="">Acesse a imagem em tamanho maior aqui</a>
+               <a href="https://drive.google.com/file/d/1iGNE0H7kGRdMZSWOBLPXf-8V2rve0LE3/view?usp=sharing">Acesse a imagem em tamanho maior aqui</a>
                <p>Autor: Grupo</p>
+          </div>
+          <div>
+               <h5>Versão 5.0</h5>
+               <ReactFancyBox thumbnail={classev50} image={classev50}/>
+               <a href="https://drive.google.com/file/d/1x10O3fLDR8pxsLp2-N_Ka3EgV3WHkFvu/view?usp=sharing">Acesse a imagem em tamanho maior aqui</a>
+               <p>Autor: Amanda Muniz, Isaque Alves, Martha Dantas.</p>
           </div>
           <div>
                <h4>Diagrama de Bancos de Dados</h4>
