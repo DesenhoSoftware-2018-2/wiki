@@ -36,6 +36,8 @@ import Lexicos from '../components/contents/dinamica01/pre-rastreabilidade/lexic
 import Questionario from '../components/contents/dinamica01/elicitacao/questionario';
 import Storytelling from '../components/contents/dinamica01/elicitacao/storytelling';
 import ModelagemProcesso from '../components/contents/dinamica02/modelagem_processo';
+import DocArquitetura from '../components/contents/dinamica04/docArquitetura';
+import PadroesProjeto from '../components/contents/dinamica04/padroesProjeto';
 import SprintPlanning from '../components/contents/extras/sprintPlanning';
 
 export default () => (
@@ -77,6 +79,8 @@ export default () => (
       <Route path="/questionario" exact component={Questionario} />
       <Route path="/storytelling" exact component={Storytelling} />
       <Route path="/modelagemProcesso" exact component={ModelagemProcesso} />
+      <Route path="/docArquitetura"  exact component={DocArquitetura} />
+      <Route path="/padroesProjeto"  exact component={PadroesProjeto} />
       <Route path="/sprintPlanning" exact component={SprintPlanning} />
     </Switch>
   </BrowserRouter>

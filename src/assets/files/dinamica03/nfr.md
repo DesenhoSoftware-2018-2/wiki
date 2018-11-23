@@ -4,7 +4,3 @@
 <p align="justify">&emsp;O NFR Framework usa requisitos não funcionais, como segurança, design, desempenho e custo para gerar o processo de design geral. O Framework visa colocar os requisitos não funcionais em primeiro lugar na mente do desenvolvedor.</p>
 
 <p align="justify">&emsp; Aqui encontra-se todas as versões desenvolvidas dos NFRs.</p>
-
-### Versão 1.0
-
-![nfr](dinamica03/NFR.png)
