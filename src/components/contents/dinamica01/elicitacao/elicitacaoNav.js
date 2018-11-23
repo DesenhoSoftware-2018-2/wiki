@@ -11,7 +11,8 @@ class ElicitacaoNav extends Component {
       { pathname: "/analiseprotocolo", link: "Análise de Protocolo"},
       { pathname: "/brainstorming", link: "Brainstorming"},
       { pathname: "/analisediscurso", link: "Análise de Discurso"},
-      { pathname: "/questionario", link: "Questionário"}
+      { pathname: "/questionario", link: "Questionário"},
+      { pathname: "/storytelling", link: "Storytelling"}
     ];
 
     return (
