@@ -8,8 +8,8 @@ class Extras extends Component {
       { pathname: "/planoComunicacao", link: "Plano de Comunicação" },
       { pathname: "/guiaContribuicao", link: "Guia de Contribuição" },
       { pathname: "/reunioes", link: "Reuniões" },
-      { pathname: "/fotos", link: "Fotos" },
-      { pathname: "/referencia", link: "Referência Bibliográfica" }
+      { pathname: "/referencia", link: "Referência Bibliográfica" },
+      { pathname: "/sprintPlanning", link: "Planejamento de Sprint"}
     ];
 
     return (

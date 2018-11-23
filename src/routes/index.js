@@ -36,6 +36,7 @@ import Lexicos from '../components/contents/dinamica01/pre-rastreabilidade/lexic
 import Questionario from '../components/contents/dinamica01/elicitacao/questionario';
 import Storytelling from '../components/contents/dinamica01/elicitacao/storytelling';
 import ModelagemProcesso from '../components/contents/dinamica02/modelagem_processo';
+import SprintPlanning from '../components/contents/extras/sprintPlanning';
 
 export default () => (
   <BrowserRouter basename="/wiki">
@@ -76,6 +77,7 @@ export default () => (
       <Route path="/questionario" exact component={Questionario} />
       <Route path="/storytelling" exact component={Storytelling} />
       <Route path="/modelagemProcesso" exact component={ModelagemProcesso} />
+      <Route path="/sprintPlanning" exact component={SprintPlanning} />
     </Switch>
   </BrowserRouter>
 );
