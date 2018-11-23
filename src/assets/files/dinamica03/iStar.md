@@ -10,7 +10,7 @@ O modelo SD é usado para expressar a rede de relacionamentos estratégicos inte
 
 A figura abaixo representa um modelo estratégico de dependência que apresenta as principais funcionalidades da aplicação Banquinha.
 
-#### Versão 1.0
+##### Versão 1.0
 
 ![istar](dinamica03/istar.png)
 
@@ -19,6 +19,7 @@ A figura abaixo representa um modelo estratégico de dependência que apresenta 
 
 O modelo SR é um grafo, com vários tipos de nós e links que trabalham juntos para fornecer uma estrutura representacional para expressar as razões por trás das dependências. Os atores com o modelo SD são "abertos" para mostrar suas intenções específicas.
 
-#### Versão 1.0
+#### SR da Facilidade do Match
+##### Versão 1.0
 
- <!-- Inserir modelos SR da Banquinha -->
+ ![SR](dinamica03/sr.png)

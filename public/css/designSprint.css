@@ -36,7 +36,7 @@
 }
 
 .react-fancybox .thumbnail img {
-    max-width: 1000px !important;
+    max-width: 400px !important;
     border: none;
     color: black;
     padding: 16px 32px;
@@ -49,4 +49,7 @@
 
   .react-fancybox .thumbnail img:hover{
     opacity: 1;
+  }
+
+ .react-fancybox .span .box .image-box img {
   }
