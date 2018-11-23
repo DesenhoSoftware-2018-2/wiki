@@ -49,7 +49,13 @@ class Sidenav extends Component {
           { name: "iStar", link: "/istar"}
         ]
       },
-      { dynamic: "Dinâmica IV", artefacts: [] }
+      { dynamic: "Dinâmica IV",
+        artefacts: [
+            { name: "Documento de Arquitetura", link: "/docArquitetura" },
+            { name: "Padrões de Projeto", link: "/padroesProjeto" }
+        ]
+      },
+      { dynamic: "Dinâmica V", artefacts: [] }
     ];
 
     const extras = [

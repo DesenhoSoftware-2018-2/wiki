@@ -1,0 +1,8 @@
+## GOFs
+
+|Padrão GOFs|Forma aplicada|Classe aplicada|Explicação|
+|:-----------:|:-----------:|:--------------:|:-----------:|
+|Template method|	O padrão template foi aplicado utilizando class based views, o padrão do python para template não é "purista" e permite sobreescrita do metodo template.|	Class based views de Events e Profile	| O metodo api_view() presente em todas as views. e na classe Profile, que sobrescreve os métodos da classe do Django User.|
+|Facade	|O django utiliza de roteamento de urls centralizados em uma fachada no arquivo urls.py (uma facade por app e uma geral do projeto)|	Class based views de Events e Profile	|As requisições são centralizadas pelo servidor Django que chama a classe view mapeada para o padrão de URL.|
+|Command|	O padrão command foi aplicado através da utilização do componente HttpRequest do próprio Django, que encapsula um request em um objeto, sendo aplicado em todas as class based views da aplicação e evidenciado na view de profile.	|Class based views de Events e Profile |	Quando é feita uma requisição de uma página, o django cria um objeto do tipo HttpRequest que contém os metadados sobre a requisição, carregando em seguida a view apropriada passando o HttpRequest como argumento inicial para a função da view. Cada view é responsável por retornar um objeto HttpResponse.|
+|Observer|Foi utilizado uma abstração do conceito do padrão Observer, onde é necessário observar um atributo de Profile e criamos uma classe para realizar essa observação.|Class ProfileObserver|Para manter atualizado o status dos participantes do chat de um evento, utilizamos a classe ProfileObserver para manter uma lista de profiles onde o chat pode consultar o status dos participantes pelo método getStatusProfile().|
