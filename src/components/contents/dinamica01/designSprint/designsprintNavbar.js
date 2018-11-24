@@ -10,7 +10,6 @@ class DesignSprintNavbar extends Component {
         { pathname: "/esbocar", link: "Esboçar" },
         { pathname: "/decidir", link: "Decidir" },
         { pathname: "/prototipar", link: "Prototipar" },
-        { pathname: "/testar", link: "Testar"}
       ];
 
     return (

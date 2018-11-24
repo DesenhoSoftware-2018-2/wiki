@@ -36,6 +36,3 @@ Utilizado como ferramenta de comunicação estática, onde os artefatos são man
 O time usará como ferramenta principal o Telegram com a integração do GitHub, onde tudo que acontece nos repositórios é reportado no grupo do time.
 A integração é feita através do boot @GitHub que é adicionado ao grupo e configurado de acordo com os respositórios que esse grupo gerencia.
 Também foram definidos outros artefatos para auxiliar na criação de issues, pull requests e politicas de contribuição do repositório.
-
-
-Autor: Isaque Alves

@@ -18,7 +18,7 @@ Em JavaScript, os Singletons servem como um namespace de recurso compartilhado q
 O padrão não é apenas uma maneira fácil de implementar herança, mas também pode ter um aumento de desempenho: ao definir uma função em um objeto, todos eles são criados por referência (para que todos os objetos filhos apontem para a mesma função) em vez de criar suas próprias cópias individuais.
 
 ##### Command:
-Os objetos de comando simples e simples de implementar unem uma ação e o objeto que deseja invocar a ação. Eles consistentemente incluem uma operação de execução (como run () ou execute ()). Todos os objetos Command com a mesma interface podem ser facilmente trocados conforme necessário e isso é considerado um dos maiores benefícios do padrão.
+Os objetos de comando simples e simples de implementar unem uma ação e o objeto que deseja invocar a ação. Eles consistentemente incluem uma operação de execução (como run() ou execute()). Todos os objetos Command com a mesma interface podem ser facilmente trocados conforme necessário e isso é considerado um dos maiores benefícios do padrão.
 
 ##### Facade:
 As fachadas são um padrão estrutural que pode ser visto em bibliotecas JavaScript como React, onde, embora uma implementação possa suportar métodos com uma ampla gama de comportamentos, apenas uma "fachada" ou abstração limitada desses métodos é apresentada ao público para uso.

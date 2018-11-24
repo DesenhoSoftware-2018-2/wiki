@@ -14,7 +14,6 @@ import Primeiro from '../components/contents/dinamica01/designSprint/primeiro';
 import Segundo from '../components/contents/dinamica01/designSprint/segundo';
 import Terceiro from '../components/contents/dinamica01/designSprint/terceiro';
 import Quarto from '../components/contents/dinamica01/designSprint/quarto';
-import Quinto from '../components/contents/dinamica01/designSprint/quinto';
 import wh from '../components/contents/dinamica01/pre-rastreabilidade/5w2h';
 import Argumentacoes from '../components/contents/dinamica01/pre-rastreabilidade/argumentacoes';
 import Brainstorming from '../components/contents/dinamica01/elicitacao/brainstorming';
@@ -62,7 +61,6 @@ export default () => (
       <Route path="/esbocar" exact component={Segundo} />
       <Route path="/decidir" exact component={Terceiro} />
       <Route path="/prototipar" exact component={Quarto} />
-      <Route path="/testar" exact component={Quinto} />
       <Route path="/analiseprotocolo"  exact component={AnaliseProtocolo} />
       <Route path="/elicitacao" exact component={Elicitacao} />
       <Route path="/prerastreabilidade" exact component={PreRastreabilidade} />
