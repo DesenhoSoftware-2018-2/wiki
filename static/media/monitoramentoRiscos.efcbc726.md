@@ -37,6 +37,3 @@ Você pode ver a estrutura com mais detalhes no link a seguir: https://mm.tt/114
 |Atividade impactante|impacto|Ação preventiva|Probabilidade|ação reativa|risco|
 |-----------|---------|---------|---------|---------|
 |Baixa adesão dos usuários a aplicação |Alto|Fazer pesquisas de publico alvo|Muito provável|Adaptar o projeto às diretrizes de usabilidade e implantar o proto.io para avaliação do uso do app.|Crítico|
-
-
-Autor: Isaque Alves.
