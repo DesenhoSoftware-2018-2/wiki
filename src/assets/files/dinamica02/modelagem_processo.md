@@ -98,6 +98,3 @@ Com os artefatos gerados anteriormente, o time deveria realizar um protótipo de
 O artefato que será alterado é atualizado.
 
 **Artefato de saída:** Artefato atualizado.
-
-
-**Autor:** Isaque Alves.  

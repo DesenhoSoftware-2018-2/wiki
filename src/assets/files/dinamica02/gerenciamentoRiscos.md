@@ -40,4 +40,3 @@ Produto não atende às necessidades do público alvo - Risco relacionado à uti
 A matriz abaixo utiliza a combinação dos eixos X (Impacto) e Y (Probabilidade) que auxiliam na priorização dos riscos de acordo com sua significância.  
 
 ![Matriz de Probabilidade X Impacto](dinamica02/matrizProbabilidadeImpacto.png)  
-Autor: Isaque Alves.

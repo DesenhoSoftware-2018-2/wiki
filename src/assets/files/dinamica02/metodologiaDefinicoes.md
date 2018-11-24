@@ -23,5 +23,3 @@ As atas de reunião são especialmente úteis para o gerenciamento dos objetivos
 
 ### KanBan
 Essa metodologia foi adicionada ao processo de construção da Banquinha, pois ela permite que a equipe consiga visualizar o andamento dos fluxos de desenvolvimento tanto de artefatos quanto de código. O grupo identificou a necessidade de incrementar o processo e flexibilizar a distribuição de tarefas. Dessa forma, todos checavam o quadro de "To Do" e tinham liberdade para realizar as tasks de sua preferência. Posteriormente, as tasks eram movidas conforme o status de sua conclusão, e assim os membros do grupo ficavam cientes do que estava acontecendo ao longo do projeto. A atividade de gerência de mudanças prevista no processo inicial permitiu que a adição do KanBan ocorresse sem que houvesse um impacto negativo no projeto.
-
-Autores: Isaque Alves e João Vitor.

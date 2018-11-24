@@ -18,12 +18,10 @@ class Nfr extends Component {
             <div>
                  <h2>Versão 1.0</h2>
                  <ReactFancyBox thumbnail={nfrv10} image={nfrv10}/>
-                 <p>Autor: Isaque Alves</p>
             </div>
             <div>
                  <h2>Versão 2.0</h2>
                  <ReactFancyBox thumbnail={nfrv20} image={nfrv20}/>
-                 <p>Autor: Isaque Alves</p>
             </div>
         </div>
         </div>

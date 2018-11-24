@@ -25,42 +25,35 @@ class DocArquitetura extends Component {
                <h5>Versão 1.0</h5>
                <ReactFancyBox thumbnail={classev10} image={classev10}/>
                <a href="https://drive.google.com/open?id=1saGul3uMC1MwvHsWvsVfkmQmEXl9ybcO">Acesse a imagem em tamanho maior aqui</a>
-               <p>Autor: Grupo</p>
           </div>
           <div>
                <h5>Versão 2.0</h5>
                <ReactFancyBox thumbnail={classev20} image={classev20}/>
                <a href="https://drive.google.com/open?id=1Ak8YkBuyNfejZfW8WlxqQ4z8tzHPYa84">Acesse a imagem em tamanho maior aqui</a>
-               <p>Autor: Grupo</p>
           </div>
           <div>
                <h5>Versão 3.0</h5>
                <ReactFancyBox thumbnail={classev30} image={classev30}/>
                <a href="https://drive.google.com/open?id=1PoWpUaeHpIrKpqwxiMmKTri5jJ3vfzV_">Acesse a imagem em tamanho maior aqui</a>
-               <p>Autor: Isaque Alves</p>
           </div>
           <div>
                <h5>Versão 4.0</h5>
                <ReactFancyBox thumbnail={classev40} image={classev40}/>
                <a href="https://drive.google.com/file/d/1iGNE0H7kGRdMZSWOBLPXf-8V2rve0LE3/view?usp=sharing">Acesse a imagem em tamanho maior aqui</a>
-               <p>Autor: Grupo</p>
           </div>
           <div>
                <h5>Versão 5.0</h5>
                <ReactFancyBox thumbnail={classev50} image={classev50}/>
                <a href="https://drive.google.com/file/d/1x10O3fLDR8pxsLp2-N_Ka3EgV3WHkFvu/view?usp=sharing">Acesse a imagem em tamanho maior aqui</a>
-               <p>Autor: Amanda Muniz, Isaque Alves, Martha Dantas.</p>
           </div>
           <div>
                <h4>Diagrama de Bancos de Dados</h4>
                <h5>Diagrama Entidade Relacionamento</h5>
                <ReactFancyBox thumbnail={der} image={der}/>
-               <p>Autor: Amanda Muniz, Isaque Alves</p>
           </div>
           <div>
                <h5>Lógico</h5>
                <ReactFancyBox thumbnail={logico} image={logico}/>
-               <p>Autor: Amanda Muniz, Isaque Alves</p>
           </div>
         </div>
         </div>
